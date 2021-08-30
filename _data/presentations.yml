@@ -1,0 +1,16 @@
+#Community Presentations
+- name: John Bryant
+  organisation: Mammoth Geospatial
+  presentation_title: A community presentation
+  abstract: An abstract about community presentation talk
+
+#Lightning Talks
+- name: John Bryant
+  organisation: Mammoth Geospatial
+  presentation_title: A lightning talk
+  abstract: An abstract about lightning talk
+
+- name: John Bryant
+  organisation: Mammoth Geospatial
+  presentation_title: A second lightning talk
+  abstract: An abstract about a second lightning talk

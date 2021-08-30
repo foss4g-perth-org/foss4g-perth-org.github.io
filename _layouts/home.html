@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <div class="main-content">
+    <h1>{{ page.pageTitle }}</h1>
+    <div class="intro">{{ page.introText }}</div>
+    {{ content }}
+  </div>
+  
+  <div class="supporter-wrapper">
+    {%- include supporters.html -%}
+  </div>
+
+</div>

@@ -1,0 +1,72 @@
+{% if site.data.supporters %}
+
+<h2>Supporters</h2>
+<div class="inner-support">
+
+{% if site.data.supporters.HubSponsors %}
+  <div class="supporter-group"> 
+    <h3>Hub Sponsors</h3>
+    <div class="supporters">
+    {% for supporter in site.data.supporters.HubSponsors %}
+      <div>
+        <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% if site.data.supporters.Host %}
+  <div class="supporter-group"> 
+    <h3> Conference Host</h3>
+    <div class="supporters"> 
+    {% for supporter in site.data.supporters.Host %}
+      <div>
+        <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% if site.data.supporters.HubSupporter %}
+    <div class="supporter-group"> 
+      <h3>Hub Supporter</h3>
+      <div class="supporters"> 
+      {% for supporter in site.data.supporters.HubSupporter %}
+        <div>
+          <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+        </div>
+      {% endfor %}
+      </div>
+    </div>
+{% endif %}
+
+{% if site.data.supporters.Lanyard %}
+  <div class="supporter-group"> 
+    <h3>Lanyard</h3>
+    <div class="supporters"> 
+    {% for supporter in site.data.supporters.Lanyard %}
+      <div>
+        <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+{% if site.data.supporters.InKind %}
+  <div class="supporter-group"> 
+    <h3>In-kind sponsors</h3>
+    <div class="supporters"> 
+    {% for supporter in site.data.supporters.InKind %}
+      <div>
+        <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+      </div>
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
+</div>
+{% endif %}

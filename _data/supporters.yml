@@ -1,0 +1,61 @@
+#Hub Sponsors
+HubSponsors:
+  - name: Logo Ipsum
+    tier: HubSponsors
+    url: "/"
+    logo: logoipsum-logo.svg
+
+  - name: Logo Ipsum
+    tier: HubSponsors
+    url: "/"
+    logo: logoipsum-logo-1.svg
+  
+  - name: Logo Ipsum
+    tier: HubSponsors
+    url: "/"
+    logo: logoipsum-logo-3.svg
+
+  - name: Logo Ipsum
+    tier: HubSponsors
+    url: "/"
+    logo: logoipsum-logo-1.svg
+
+  - name: Logo Ipsum
+    tier: HubSponsors
+    url: "/"
+    logo: logoipsum-logo-1.svg
+
+#Conference Host
+Host:
+  - name: Logo Ipsum
+    tier: Host
+    url: "/"
+    logo: logoipsum-logo-3.svg
+
+#Hub Supporter
+HubSupporter:
+  - name: Logo Ipsum
+    tier: HubSupporter
+    url: "/"
+    logo: logoipsum-logo-3.svg
+
+#Lanyard Sponsor
+Lanyard:
+  # - name: Logo Ipsum
+  #   tier: Lanyard
+  #   url: "/"
+  #   logo: logoipsum-logo.svg
+
+
+#In-kind Sponsors
+InKind:
+  - name: Logo Ipsum
+    tier: InKind
+    url: "/"
+    logo: logoipsum-logo-1.svg
+
+
+  - name: Logo Ipsum
+    tier: InKind
+    url: "/"
+    logo: logoipsum-logo-3.svg

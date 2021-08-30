@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  {% include head.html %}
+
+  <body>
+    {% include nav.html %}
+    <main class="page-content responsive-wrapper" aria-label="Content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+     
+  </body>
+</html>

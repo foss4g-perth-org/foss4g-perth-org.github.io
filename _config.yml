@@ -1,0 +1,25 @@
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+
+sass:
+    sass_dir: _sass
+
+#site variables
+
+title: FOSS4G Perth
+description: FOSS4G Perth - open source geospatial conference, Perth, Western Australia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: foss4g_perth
+# github_username:  
+slack: 'Geogeeks'
+email: 'perth-hub@foss4g-oceania.org'
+header_logo: 'assets/img/foss4g_2021_logo.png'
+
