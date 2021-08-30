@@ -8,6 +8,10 @@ See http://jekyllrb.com/docs/installation/
 
 `gem install bundler jekyll`
 
+### Install gems
+
+`bundle install`
+
 ### View locally
 
 * `git clone repo location`
