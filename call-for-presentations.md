@@ -29,6 +29,14 @@ Submissions must be received no later than 11:59 PM (AWST), 5 October 2021.
   <a href="" class="btn" target="_blank">Submit your proposal</a>
 </div>
 
+## Key Dates
+
+* **Any day now:** Call for presentations and workshops opens.
+* **5 October:** Deadline for presentation and workshop proposal submissions.
+* **5-12 October:** Community vote.
+* **12-21 October:** Presentation selection and confirmation with speakers.
+* **21 October:** Speakers announced.
+
 ## What are we looking for?
 
 This is a face-to-face conference with one day of presentations and one day of hands-on workshops. There are many presentation slots available and three half-day workshop slots available.
@@ -37,14 +45,6 @@ This is a face-to-face conference with one day of presentations and one day of h
     <summary>Read more...</summary>
     {% include_relative read_more/looking_for.html %}
 </details>
-
-## Key Dates
-
-* **Any day now:** Call for presentations and workshops opens.
-* **5 October:** Deadline for presentation and workshop proposal submissions.
-* **5-12 October:** Community vote.
-* **12-21 October:** Presentation selection and confirmation with speakers.
-* **21 October:** Speakers announced.
 
 ## Who should submit?
 
