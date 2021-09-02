@@ -407,6 +407,12 @@ footer {
         }
     }
   }
+  // 1 column footer on mobile devices
+  @media screen and (max-width: 768px) {
+    .footer-wrapper {
+        grid-template-columns: 1fr;
+    }
+  }
 }
 
 // call for submission buttons
