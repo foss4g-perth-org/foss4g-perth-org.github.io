@@ -3,14 +3,17 @@
   {% include head.html %}
 
   <body>
-    {% include nav.html %}
-    <main class="page-content responsive-wrapper" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </main>
+    <div class="wrapper">
 
-    {%- include footer.html -%}
-     
+        {% include nav.html %}
+
+        <main class="page-content responsive-wrapper" aria-label="Content">
+        
+            {{ content }}
+        
+        </main>
+
+        {%- include footer.html -%}
+    </div>
   </body>
 </html>

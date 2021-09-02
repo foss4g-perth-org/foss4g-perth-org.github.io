@@ -3,4 +3,4 @@ layout: page
 pageTitle: Sponsorship
 ---
 
-Sponsor content to go here.
+If you'd like to support this event, please <a href="mailto:perth-hub@foss4g-oceania.org?subject=sponsorship">email us</a>.  
