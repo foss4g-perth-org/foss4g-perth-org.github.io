@@ -14,11 +14,13 @@ We especially want to help people from underrepresented parts of the community, 
 
 We’ll be accepting applications right up until the day before the conference, or until the allocation is exhausted. Applications will be assessed as they are submitted.
 
-To apply for a free registration, please follow the link below:
+**The application for free regristration will go live shortly, so keep checking back here or keep an eye on our social media channels.** 
+
+<!-- To apply for a free registration, please follow the link below:
 
 <div class="button_wrapper center">
   <a href="/" class="btn" target="_blank">Apply for free registration</a>
-</div>
+</div> -->
 
 
 

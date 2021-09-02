@@ -3,4 +3,6 @@ layout: page
 pageTitle: Sponsorship
 ---
 
-If you'd like to support this event, please <a href="mailto:perth-hub@foss4g-oceania.org?subject=sponsorship">email us</a>.  
+We're working on a sponsorship prospectus, which will be released soon!
+
+If you'd like to find out more about how your organisation can support this event, please <a href="mailto:perth-hub@foss4g-oceania.org?subject=sponsorship">email us</a>.  
