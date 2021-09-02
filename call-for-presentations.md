@@ -26,8 +26,9 @@ Please apply via this form (before 5 October) and be ready to provide the follow
 Submissions must be received no later than 11:59 PM (AWST), 5 October 2021.
 
 <div class="button_wrapper center">
-  <a href="" class="btn" target="_blank">Submit your proposal</a>
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE3TOQr_VoQRZDxIP9kWNa_2YQ-bbyPyN3oPiyi4BoAVnAaw/viewform?usp=sf_link" class="btn" target="_blank">Submit your proposal</a>
 </div>
+
 
 ## Key Dates
 
