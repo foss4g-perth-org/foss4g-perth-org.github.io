@@ -444,3 +444,28 @@ footer {
     margin: 0 auto;
   }
 }
+
+// submission forms
+
+.details-submission {
+    border: 1px solid $white;
+    border-radius: 4px;
+    padding: .5em .5em 0;
+  	background-color: $white;
+}
+
+.summary-submission {
+    font-weight: bold;
+    margin: -.5em -.5em 0;
+    padding: .5em;
+  	color: $color_three;
+}
+
+.details-submission[open] {
+    padding: .5em;
+}
+
+.details-submission[open] summary-submission {
+    border-bottom: 1px solid $white;
+    margin-bottom: .5em;
+}
