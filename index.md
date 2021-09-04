@@ -6,7 +6,7 @@ introText: We’re excited to announce that FOSS4G Perth will once again be a hu
 ---
 
 <div class="intro-grid">
-  <a href="https://osgeo-oceania.org/foss4g-sotm-oceania-conference" target="_blank">
+  <a href="https://osgeo-oceania.org/foss4g-sotm-oceania-conference" target="_blank" rel="noreferrer">
     <div class="logo">
       <div class="tagline">A hub event of:</div>
       <img alt="FOSS4G SOTM Oceania 2021" src="/assets/img/foss4g_2021_logo.png">

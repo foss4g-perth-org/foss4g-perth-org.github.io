@@ -31,10 +31,10 @@ Please use the buttons below to apply and be ready to provide the following info
 
 <div class="submit-button">
     <div class="button_wrapper center">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE3TOQr_VoQRZDxIP9kWNa_2YQ-bbyPyN3oPiyi4BoAVnAaw/viewform?usp=sf_link" class="btn" target="_blank">Presentation proposals</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE3TOQr_VoQRZDxIP9kWNa_2YQ-bbyPyN3oPiyi4BoAVnAaw/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Presentation proposals</a>
     </div>
     <div class="button_wrapper center">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?usp=sf_link" class="btn" target="_blank">Workshop proposals</a>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Workshop proposals</a>
     </div>
 </div>
 
