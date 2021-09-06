@@ -24,7 +24,7 @@ Please use the buttons below to apply and be ready to provide the following info
 
 - What type of presentation or workshop are you proposing?
 - What is the title of your presentation/workshop?
-- Give a concise description of your proposed presentation/workshop in 250 words or less.
+- Give a concise description of your proposed presentation/workshop.
 - Let us know if you have any specific requirements for delivering your presentation/workshop.
 
 **Submissions must be received no later than 11:59 PM (AWST), 5 October 2021.**
