@@ -14,9 +14,9 @@ Submit your presentation and workshop proposals now! We’re calling for:
 **13 November**
 - half-day workshops
 
-We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, workshop leaders, experienced FOSS4G practitioners and curious newcomers. 
+We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, workshop leaders, experienced FOSS4G practitioners and curious newcomers.
 
-If you don’t live in Perth and may struggle to cover travel costs, keep in touch to hear about availability of [travel grants and application details]({% link grant-program.md %}). We will post updates soon. 
+If you don’t live in Perth and may struggle to cover travel costs, keep in touch to hear about availability of [travel grants and application details]({% link grant-program.md %}). We will post updates soon.
 
 ## How to submit a proposal?
 
@@ -54,7 +54,7 @@ Please use the buttons below to apply and be ready to provide the following info
 
 ## Key Dates
 
-* **Any day now:** Call for presentations and workshops opens.
+* **6 September:** Call for presentations and workshops opens.
 * **5 October:** Deadline for presentation and workshop proposal submissions.
 * **5-12 October:** Community vote.
 * **12-21 October:** Presentation selection and confirmation with speakers.
