@@ -18,8 +18,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: foss4g_perth
-# github_username:  
+# github_username:
 slack: 'Geogeeks'
 email: 'perth-hub@foss4g-oceania.org'
 header_logo: 'assets/img/foss4g_2021_logo.png'
 
+# Google Analytics
+google_analytics: G-JCXFYD6H36
