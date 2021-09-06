@@ -17,6 +17,9 @@ introText: We’re excited to announce that FOSS4G Perth will once again be a hu
     <div>Friday, 12 November 2021</div>
     <div class="label">Where?</div>
     <div>To be determined, check back soon!</div>
+    <div class="label">Workshop Day</div>
+    <div>Friday, 13 November 2021</div>
+    <div>The University of Western Australia</div>
     <div class="label">Stay Updated</div>
     <div>Stay tuned to the latest FOSS4G Perth news by joining the mailing list.</div>
     <div class="button_wrapper">
