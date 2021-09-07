@@ -13,4 +13,7 @@
   <link rel="stylesheet" href="{{ "/assets/css/normalize.css" | relative_url }}">
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   <script src="/assets/js/menu.js"></script>
+  <!-- {% if site.google_analytics and jekyll.environment == 'production' %} -->
+  {% include analytics.html %}
+  <!-- {% endif %} -->
 </head>
