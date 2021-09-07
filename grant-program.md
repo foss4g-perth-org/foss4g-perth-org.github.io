@@ -1,7 +1,8 @@
 ---
 layout: page
-pageTitle: Perth Hub Grant Program
+title: Perth Hub Grant Program
 active: grants
+description: We believe that a healthy and diverse open geospatial community includes people from all kinds of backgrounds, regardless of your ability to pay.
 ---
 
 We believe that a healthy and diverse open geospatial community includes people from all kinds of backgrounds, regardless of your ability to pay. To help make sure the cost of attending this event isn't an obstacle, we're running a grant program, with free registrations and modest financial support available.

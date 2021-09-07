@@ -1,7 +1,8 @@
 ---
 layout: home
-pageTitle: FOSS4G Perth 2021
+title: FOSS4G Perth 2021
 introText: We’re excited to announce that FOSS4G Perth will once again be a hub for the region’s premier open source geospatial conference.
+description: We’re excited to announce that FOSS4G Perth will once again be a hub for the region’s premier open source geospatial conference.
 
 ---
 
