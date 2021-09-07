@@ -1,7 +1,7 @@
 ---
 layout: page
 pageTitle: Call for presentations
-
+active: presentations
 ---
 
 Submit your presentation and workshop proposals now! We’re calling for:

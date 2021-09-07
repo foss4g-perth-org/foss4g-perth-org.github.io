@@ -1,26 +1,85 @@
-<!-- TODO: Chol to fix responsive menu -->
 <header class="header-outer">
-	<div class="header-inner">
-    <a class="navbar-brand" href="{{site.baseurl}}/">
-      {{site.title}}
-		</a>
-		<nav class="header-navigation nav">
-      <button href="javascript:void(0);" class="icon" onclick="myFunction()">
-        Menu
-      </button>
-      <a href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
-			<a href="{{site.baseurl}}/program">Program</a>
-			<a href="{{site.baseurl}}/grant-program">Grant program</a>
-			<a href="{{site.baseurl}}/sponsorship">Sponsorship</a>
-		</nav>
-	</div>
+    <nav class="navbar">
+      <a class="navbar-brand" href="{{site.baseurl}}/">
+        {{site.title}}
+      </a>
+        <ul class="nav-menu" >
+          {% if page.active == "presentations" %}
+          <li class="nav-item">
+            <a class="active  href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
+          </li>
+          {% endif %}
+
+          {% if page.active == "program" %}
+          <li class="nav-item">
+            <a class="active href="{{site.baseurl}}/program">Program</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}/program">Program</a>
+          </li>
+          {% endif %}
+
+          {% if page.active == "grants" %}
+          <li class="nav-item">
+            <a class="active  href="{{site.baseurl}}/grant-program">Grant program</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}/grant-program">Grant program</a>
+          </li>
+          {% endif %}
+          
+          {% if page.active == "sponsorship" %}
+          <li class="nav-item">
+            <a class="active  href="{{site.baseurl}}/sponsorship">Sponsorship</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}/sponsorship">Sponsorship</a>
+          </li>
+          {% endif %}
+        </ul>
+       <button id="toggle" aria-expanded="false" class="hamburger">
+           <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        </nav>  
+ 
 </header>
-<!-- Top Navigation Menu -->
-<div class="topnav">
-  <div id="myLinks">
-    <a href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
-    <a href="{{site.baseurl}}/program">Program</a>
-    <a href="{{site.baseurl}}/grant-program">Grant program</a>
-    <a href="{{site.baseurl}}/sponsorship">Sponsorship</a>
-  </div>
-</div>
+
+<script>
+// toggle hamburger menu open and closed
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+// add class for styling on scroll
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    const header = document.getElementById('header');
+    if (!header) {
+        return;
+    }
+    if (document.body.scrollTop > 0 || document.documentElement.scrollTop > 0) {
+        header.classList.add('header_small');
+    } else {
+        header.classList.remove('header_small');
+    }
+}
+
+
+</script>
