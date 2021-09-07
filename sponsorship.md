@@ -1,6 +1,7 @@
 ---
 layout: page
 pageTitle: Sponsorship
+active: sponsorship
 ---
 
 We're working on a sponsorship prospectus, which will be released soon!

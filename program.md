@@ -1,6 +1,7 @@
 ---
 layout: page
 pageTitle: Program
+active: program
 ---
 
 **We're working on the program details right now. Stay tuned!**
