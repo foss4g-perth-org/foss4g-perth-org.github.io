@@ -1,7 +1,8 @@
 ---
 layout: page
-pageTitle: Program
+title: Program
 active: program
+description: The main event will compromise keynote speakers, 15 minute presentations, and lightning talks.
 ---
 
 **We're working on the program details right now. Stay tuned!**
@@ -12,7 +13,7 @@ The main event will comprise:
 * regional keynote speakers streamed to hubs across Oceania
 * a local keynote speaker
 * 15 minute presentations
-* 5 minute lightening talks
+* 5 minute lightning talks
 
 Of course, there will be ample time to enjoy refreshments and mingle with fellow geo-minded people throughout the day.
 

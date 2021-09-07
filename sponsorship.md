@@ -1,7 +1,8 @@
 ---
 layout: page
-pageTitle: Sponsorship
+title: Sponsorship
 active: sponsorship
+description: Find out about opportunities for your organisation to support FOSS4G Perth.
 ---
 
 We're working on a sponsorship prospectus, which will be released soon!

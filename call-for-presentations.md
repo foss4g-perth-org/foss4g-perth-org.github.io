@@ -1,7 +1,8 @@
 ---
 layout: page
-pageTitle: Call for presentations
+title: Call for presentations
 active: presentations
+description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal.
 ---
 
 Submit your presentation and workshop proposals now! We’re calling for:
