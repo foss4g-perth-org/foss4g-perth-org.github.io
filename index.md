@@ -17,7 +17,9 @@ description: We’re excited to announce that FOSS4G Perth will once again be a 
     <div class="label">When?</div>
     <div>Friday, 12 November 2021</div>
     <div class="label">Where?</div>
-    <div>To be determined, check back soon!</div>
+    <div><a href="https://spacecubed.com/space/flux/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=Flux" target=
+    "_blank" rel="noreferrer">Flux</a></div>
+    <div>191 St Georges Terrace, Perth, WA</div>
     <div class="label">Workshop Day</div>
     <div>Friday, 13 November 2021</div>
     <div>The University of Western Australia</div>
@@ -37,8 +39,11 @@ We're creating an exciting program for you — the FOSS4G and OpenStreetMap comm
 Here's all you need to know to attend. Keep reading to learn about: what to expect at the conference, venue information, and how to get involved. Watch this space for information and updates.
 
 
-### FOSS4G SotM Oceania - Yeah, we know that's a mouthful. Here's what it means.
+#### FOSS4G SotM Oceania - Yeah, we know that's a mouthful ...
 
-So let's break it down — 'Free and Open Source Software for Geospatial' or FOSS4G if you're a fan of efficiency (we are) is the name given to the conferences of the Open Source Geospatial Foundation (OSGeo). OSGeo is a non-profit with a mission to foster and promote the adoption of open source geospatial technology. All of this is done within the broader context of open source software philosophy and participatory community driven development.
+So let's break it down ...
 
-'State of the Map' or SotM is the conference of the OpenStreetMap Foundation (OSMF) which supports the development of a free and open editable world map. This takes the form of the community driven OpenStreetMap project.
+<details>
+    <summary>Read more...</summary>
+    {% include_relative read_more/overview.html %}
+</details>
