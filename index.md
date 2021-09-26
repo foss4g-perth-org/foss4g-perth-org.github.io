@@ -17,8 +17,7 @@ description: We’re excited to announce that FOSS4G Perth will once again be a 
     <div class="label">When?</div>
     <div>Friday, 12 November 2021</div>
     <div class="label">Where?</div>
-    <div><a href="https://spacecubed.com/space/flux/?utm_source=GMBlisting&utm_medium=organic&utm_campaign=Flux" target=
-    "_blank" rel="noreferrer">Flux</a></div>
+    <div><a href="https://spacecubed.com/space/flux" target="_blank" rel="noreferrer">Flux</a></div>
     <div>191 St Georges Terrace, Perth, WA</div>
     <div class="label">Workshop Day</div>
     <div>Friday, 13 November 2021</div>

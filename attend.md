@@ -5,13 +5,13 @@ active: attend
 description: Registrations for FOSS4G SotM Oceania Perth Hub?
 ---
 
-This is a two day event and you are welcome to attend either or both days. Registrations for each day are separate, so keep an eye out for registration opening announcements. 
+This is a two day event and you are welcome to attend either or both days. Registrations for each day are separate, so keep an eye out for registration opening announcements.
 
 ## 12<sup>th</sup> November: local and regional speakers
 
 **Registrations open!**
 
-Tickets for the first day of conference includes a fully catered day with speakers followed by an evening of socialising. 
+Tickets for the first day of conference includes a fully catered day with speakers followed by an evening of socialising.
 
 * Full price: $50
 * Student and concession: $25
@@ -33,4 +33,4 @@ Ticket numbers are limited, so register soon! Last year’s event sold out.
 
 ## COVID Plan
 
-We will be following all Government guidelines and will keep registered participants up to date with any changes to the plan. If there is a lockdown in Perth the event will be postponed and information about ticket refunds and holds will be provided.
+We will be following all government guidelines and will keep registered participants up to date with any changes to the plan. If there is a lockdown in Perth the event will be postponed and information about ticket refunds and holds will be provided.
