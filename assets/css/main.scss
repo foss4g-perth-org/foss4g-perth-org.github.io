@@ -229,15 +229,19 @@ header {
       width: 100%;
       border-radius: 10px;
       text-align: center;
-      box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
     }
-
+    
+    .nav-menu a {
+      margin-left: 0rem;
+    }
+    
     .nav-menu.active {
       right: 0;
+      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
     }
 
     .nav-item {
-      margin: 2.5rem 0;
+      margin: 1rem 0;
     }
 
     .hamburger {
@@ -381,20 +385,23 @@ footer {
     flex-shrink: 0; 
     display: grid;
     grid-template-columns: 1fr 300px;
-    gap: 15rem;
+    gap: 3rem;
     width: 90%;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
     .footer-menu {
       a {
-        color: $white;
+        color: $color_three;
         &:hover {
           text-decoration: underline;
         }
         &:visited {
-          color: $white;
+          color: $color_three;
         }
+      }
+      ul {
+        text-align: right;
       }
     }
     a {
@@ -419,6 +426,9 @@ footer {
   @media screen and (max-width: 768px) {
     .footer-wrapper {
         grid-template-columns: 1fr;
+        .footer-menu ul {
+          text-align: left;
+        }
     }
   }
 }
