@@ -1,0 +1,83 @@
+{% if site.data.supporters %}
+
+
+{% if site.data.supporters.OSGeo %}
+<div class="sponsor-group"> 
+    <h3>Conference partner</h3>
+
+    {% for supporter in site.data.supporters.OSGeo %}
+    <a href="{{ supporter.url }}" target="_blank">
+        <div class="sponsors osgeo">
+            <div class="image-wrapper">
+                <img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}">
+            </div>
+            <div>
+                <h4>{{ supporter.name }}</h4>
+                <div>{{ supporter.blurb }}</div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% if site.data.supporters.Tier3 %}
+<h3>Tier 3</h3>
+<div class="sponsor-group"> 
+    {% for supporter in site.data.supporters.Tier3 %}
+    <a href="{{ supporter.url }}" target="_blank">
+        <div class="sponsors">
+            <div class="image-wrapper">
+                <img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}">
+            </div>
+            <div>
+                <h4>{{ supporter.name }}</h4>
+                <div>{{ supporter.blurb }}</div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if site.data.supporters.Tier2 %}
+<h3>Tier 2</h3>
+<div class="sponsor-group"> 
+    {% for supporter in site.data.supporters.Tier2 %}
+    <a href="{{ supporter.url }}" target="_blank">
+        <div class="sponsors">
+            <div class="image-wrapper">
+                <img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}">
+            </div>
+            <div>
+                <h4>{{ supporter.name }}</h4>
+                <div>{{ supporter.blurb }}</div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+{% if site.data.supporters.Tier1 %}
+<h3>Tier 1</h3>
+<div class="sponsor-group"> 
+    {% for supporter in site.data.supporters.Tier1 %}
+    <a href="{{ supporter.url }}" target="_blank">
+        <div class="sponsors">
+            <div class="image-wrapper">
+                <img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}">
+            </div>
+            <div>
+                <h4>{{ supporter.name }}</h4>
+                <div>{{ supporter.blurb }}</div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
+{% endif %}
+
+
+{% endif %}

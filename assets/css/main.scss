@@ -280,6 +280,10 @@ main {
   padding: 0 20px;
 }
 
+.main-content {
+  margin-bottom: 2rem;
+}
+
 // home
 .intro {
   font-size: 1.2rem
@@ -348,13 +352,14 @@ main {
 
 .supporter-group {
   background: $white;
+  margin-bottom: 4rem;
 }
 
 .supporters {
   display: grid;
-  grid-gap: 2.5rem;
+  grid-gap: 4rem;
   align-items: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   div {
     justify-self: center;
   }
@@ -362,11 +367,68 @@ main {
     max-width: 100%;
     max-height: 200px;
   }
+  &.osgeo {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &.tier3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &.tier2 {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
+
+.sponsor-group {
+  a {
+    color: $charcoal;
+  }
+  .sponsors {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-gap: 4rem;
+    margin-bottom: 4rem;
+    h4 {
+      margin-top: 0;
+      margin-bottom: 1rem;
+    }
+    .image-wrapper {
+      align-self: center;
+    }
+    img {
+      width: 100%;
+    }
+  
+  }
+}
+
+
 
 @media (max-width: 768px) {
   .supporters {
-    grid-template-columns: repeat(2, 1fr);
+    &.osgeo {
+        grid-template-columns: 1fr;
+      }
+    &.tier3 {
+      grid-template-columns: 1fr;
+    }
+    &.tier2 {
+      grid-template-columns: 1fr;
+    }
+    &.tier1 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &.other {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .sponsor-group {
+    a {
+      color: $charcoal;
+    }
+    .sponsors {
+      display: block;
+    }
   }
 }
 

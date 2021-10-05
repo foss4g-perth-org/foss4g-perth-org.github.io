@@ -9,8 +9,10 @@ layout: default
     {{ content }}
   </div>
   
-  <div class="supporter-wrapper">
-    {%- include supporters.html -%}
-  </div>
+  {% if page.title != 'Sponsorship' %}
+    <div class="supporter-wrapper">
+      {%- include supporters.html -%}
+    </div>
+  {% endif %}
 
 </div>
