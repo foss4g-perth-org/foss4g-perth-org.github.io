@@ -385,8 +385,15 @@ main {
   .sponsors {
     display: grid;
     grid-template-columns: 200px 1fr;
-    grid-gap: 4rem;
-    margin-bottom: 4rem;
+    grid-gap: 64px;
+    margin-bottom: 62px;
+    padding: 30px 30px 40px 30px;
+    border: thin solid white;;
+
+    &:hover {
+      box-shadow: 0 0 10px #e3e3e3;
+      border: thin solid $color_three;
+    }
     h4 {
       margin-top: 0;
       margin-bottom: 1rem;
