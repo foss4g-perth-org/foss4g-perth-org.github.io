@@ -474,29 +474,36 @@ footer {
 
 // keynotes
 
+@media screen and (min-width: 0px) and (max-width: 799px) {
+    .hide-on-small { display: none;}
+}
+
+@media screen and (min-width: 800px) {
+    .show-on-small { display: none;}
+}
+
 .keynote-flex-container {
     display: flex;
     flex-direction: row;
     text-align: center;
 }
-  
-  
+
 .keynote-flex-inner-container {
     display: flex;
     flex-direction: row;
     text-align: center;
 }
-  
+
 .keynote-flex-item-left {
     padding: 10px;
     flex: 50%;
 }
-  
+    
 .keynote-flex-item-right {
     padding: 10px;
     flex: 50%;
 }
-  
+
 .keynote-img {
     border-radius: 50%;
     min-width: 150px;
@@ -505,14 +512,14 @@ footer {
     max-width: 150px;
 }
 
-@media (max-width: 800px) {
-    .keynote-flex-container {
-        flex-direction: column;
-    }
+.keynote-flex-container-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
-  
-@media (max-width: 400px) {
-    .keynote-flex-inner-container {
-        flex-direction: column;
-    }
+ 
+.keynote-flex-inner-container-mobile {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
