@@ -19,7 +19,7 @@ Of course, there will be ample time to enjoy refreshments and mingle with fellow
 
 ### Keynotes
 
-We're excited to announce that two fantastic keynote talks are confirmed for the Perth Hub. These are not to missed!
+We're excited to announce that two fantastic keynote talks are confirmed for the Perth Hub. These are not to be missed!
 
 <!-- show on desktop devices -->
 <div class="hide-on-small">
