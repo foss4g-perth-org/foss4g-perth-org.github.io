@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: page
 title: Call for presentations
 active: presentations
@@ -37,7 +37,7 @@ Please use the buttons below to apply and be ready to provide the following info
     <div class="button_wrapper center">
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Workshop proposals</a>
     </div>
-</div> -->
+</div>
 
 <details class="details-submission">
     <summary class="summary-submission">Submission form: presentation proposals</summary>
@@ -81,4 +81,4 @@ You may be an experienced presenter, or perhaps this is the first time you've ev
 
 ## Facilities
 
-Presenters will have access to a projection screen and microphone. Workshop leaders will have access to a room with Windows PCs and projection screen. Workshops with indoor and outdoor components are welcomed.
+Presenters will have access to a projection screen and microphone. Workshop leaders will have access to a room with Windows PCs and projection screen. Workshops with indoor and outdoor components are welcomed. --> -->
