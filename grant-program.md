@@ -16,10 +16,12 @@ We especially want to help people from underrepresented parts of the community, 
 
 We’ll be accepting applications right up until the day before the conference, or until the allocation is exhausted. Applications will be assessed as they are submitted.
 
-**The application for free registration will go live shortly, so keep checking back here or keep an eye on our social media channels.**
+<!-- **The application for free registration will go live shortly, so keep checking back here or keep an eye on our social media channels.** -->
 
-<!-- To apply for a free registration, please follow the link below:
+<details class="details-submission">
+    <summary class="summary-submission">Apply for the Grant Program</summary>
+    <div class="content-submission">
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEco8ABREEEld0v04rUj8NexA7rDiC6e6T3PxgjPa-pRwFog/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    </div>
+</details>
 
-<div class="button_wrapper center">
-  <a href="/" class="btn" target="_blank">Apply for free registration</a>
-</div> -->
