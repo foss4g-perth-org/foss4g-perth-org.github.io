@@ -26,7 +26,7 @@ We're excited to announce that two fantastic keynote talks are confirmed for the
 <div class="keynote-flex-container">
     <div class="keynote-flex-item-left">
         <img src="/assets/img/keynotes/russell_keith-magee.jpg" class="keynote-img" alt="russel-keith-magee">
-        <h4>Dr Russel Keith-Magee</h4>
+        <h4>Dr Russell Keith-Magee</h4>
     </div>
     <div class="keynote-flex-item-right">
         <div class="keynote-flex-inner-container">
@@ -78,7 +78,7 @@ We're excited to announce that two fantastic keynote talks are confirmed for the
 <div class="keynote-flex-container-mobile">
     <div class="keynote-flex-item-left">
         <img src="/assets/img/keynotes/russell_keith-magee.jpg" class="keynote-img" alt="russel-keith-magee">
-            <h4>Dr Russel Keith-Magee</h4>
+            <h4>Dr Russell Keith-Magee</h4>
             <div>
             The world is a big place, and Perth is famously a long way from everywhere. Can someone who calls Perth home have an impact on the world stage? In this talk, Russell Keith-Magee will share how you can use Open Source to establish a reputation on the world stage without leaving our obscure backwater - and the pitfalls to watch for along the way.
             </div>
