@@ -1,13 +1,13 @@
 {% if site.data.supporters %}
 
 
-{% if site.data.supporters.OSGeo %}
-<div class="sponsor-group"> 
+{% if site.data.supporters.Partner %}
+<div class="sponsor-group">
     <h3>Conference partner</h3>
 
-    {% for supporter in site.data.supporters.OSGeo %}
+    {% for supporter in site.data.supporters.Partner %}
     <a href="{{ supporter.url }}" target="_blank">
-        <div class="sponsors osgeo">
+        <div class="sponsors partner">
             <div class="image-wrapper">
                 <img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}">
             </div>
@@ -24,7 +24,7 @@
 
 {% if site.data.supporters.Tier3 %}
 <h3>Tier 3</h3>
-<div class="sponsor-group"> 
+<div class="sponsor-group">
     {% for supporter in site.data.supporters.Tier3 %}
     <a href="{{ supporter.url }}" target="_blank">
         <div class="sponsors">
@@ -43,7 +43,7 @@
 
 {% if site.data.supporters.Tier2 %}
 <h3>Tier 2</h3>
-<div class="sponsor-group"> 
+<div class="sponsor-group">
     {% for supporter in site.data.supporters.Tier2 %}
     <a href="{{ supporter.url }}" target="_blank">
         <div class="sponsors">
@@ -62,7 +62,7 @@
 
 {% if site.data.supporters.Tier1 %}
 <h3>Tier 1</h3>
-<div class="sponsor-group"> 
+<div class="sponsor-group">
     {% for supporter in site.data.supporters.Tier1 %}
     <a href="{{ supporter.url }}" target="_blank">
         <div class="sponsors">

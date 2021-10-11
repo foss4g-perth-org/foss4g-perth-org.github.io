@@ -97,7 +97,7 @@ nav {
   ul {
     list-style-type: none;
   }
-  
+
   li {
     display: inline-block;
   }
@@ -210,15 +210,15 @@ header {
 }
 
 @media only screen and (max-width: 1020px) {
-    
+
     header {
       top: 0;
     }
-    
+
     .navbar {
       height: var(--header-outer-height);
     }
-    
+
     .nav-menu {
       position: fixed;
       right: -100%;
@@ -230,11 +230,11 @@ header {
       border-radius: 10px;
       text-align: center;
     }
-    
+
     .nav-menu a {
       margin-left: 0rem;
     }
-    
+
     .nav-menu.active {
       right: 0;
       box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
@@ -250,7 +250,7 @@ header {
       background: $white;
       border: none;
     }
-    
+
     .hamburger.active .bar:nth-child(2) {
       opacity: 0;
     }
@@ -367,7 +367,7 @@ main {
     max-width: 100%;
     max-height: 200px;
   }
-  &.osgeo {
+  &.partner {
     grid-template-columns: repeat(3, 1fr);
   }
   &.tier3 {
@@ -404,7 +404,7 @@ main {
     img {
       width: 100%;
     }
-  
+
   }
 }
 
@@ -412,7 +412,7 @@ main {
 
 @media (max-width: 768px) {
   .supporters {
-    &.osgeo {
+    &.partner {
         grid-template-columns: 1fr;
       }
     &.tier3 {
@@ -443,15 +443,15 @@ footer {
   background-color: $charcoal;
   color: $white;
   padding: 20px;
-  
+
   ul {
     padding-left: 1rem;
   }
   li {
     list-style-type: none;
   }
-  .footer-wrapper {  
-    flex-shrink: 0; 
+  .footer-wrapper {
+    flex-shrink: 0;
     display: grid;
     grid-template-columns: 1fr 300px;
     gap: 3rem;

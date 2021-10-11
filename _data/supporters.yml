@@ -6,15 +6,15 @@ Tier3:
 Tier2:
   - name: Gaia Resources
     tier: 2
-    url: "https://www.gaiaresources.com.au/"
+    url: "https://www.gaiaresources.com.au"
     logo: gaiaResources_logo.jpg
-    blurb: ''
+    blurb: 'Gaia Resources is a consultancy that responsibly delivers sustainable technology solutions to make the world a better place, in a range of fields including data science, spatial, environment, health, and museums, archives & collections. Our team inludes software and mobile engineers, scientists, project managers and business analysts. We support open software and open data, and we have developed a strong reputation for providing quality services and ensuring the best for our clients.'
 
   - name: Winyama
     tier: 2
     url: "https://www.winyama.com.au"
     logo: winyama+logo.JPG
-    blurb: ''
+    blurb: 'Winyama is a Western Australian, Indigenous owned and operated business. We aim to be the leading provider of location intelligence and digital solutions in our target markets across the commercial and public sector, while facilitating the digital engagement of Indigenous people and communities. Winyama is a fully certified Supply Nation business and through our capability partners, we utilise a variety of technology in mapping, data management and analysis to deliver digital solutions enabling our clients to manage their land and assets in response to environmental, cultural, economic and resource demands.'
 
   - name: Oslandia
     tier: 2
@@ -26,19 +26,19 @@ Tier2:
 Tier1:
   - name: Mammoth Geospatial
     tier: 1
-    url: "https://mammothgeospatial.com/"
+    url: "https://mammothgeospatial.com"
     logo: MammothGeospatial_logo.png
     blurb: We specialise in free and open source GIS. Our mission is to help you connect with the power of open geospatial, and enjoy the freedom to engage with technology on your own terms. We're based in Fremantle, but we work on open geospatial projects around the world.
 
-    
+
 #Other
 Other:
 
 
-#OSGeo
-OSGeo:
+#Partner
+Partner:
   - name: OSGeo Oceania
-    tier: OSGeo
-    url: "https://osgeo-oceania.org/"
+    tier: Partner
+    url: "https://osgeo-oceania.org"
     logo: osgeo-oceania.jpg
-    blurb: We specialise in free and open source GIS. Our mission is to help you connect with the power of open geospatial, and enjoy the freedom to engage with technology on your own terms. We're based in Fremantle, but we work on open geospatial projects around the world.
+    blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.

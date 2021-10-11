@@ -4,10 +4,10 @@
 <div class="inner-support">
   <h2>Conference partner</h2>
 
-  {% if site.data.supporters.OSGeo %}
-  <div class="supporter-group"> 
-    <div class="supporters osgeo">
-    {% for supporter in site.data.supporters.OSGeo %}
+  {% if site.data.supporters.Partner %}
+  <div class="supporter-group">
+    <div class="supporters partner">
+    {% for supporter in site.data.supporters.Partner %}
       <div>
         <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
       </div>
@@ -20,7 +20,7 @@
 
 
 {% if site.data.supporters.Tier3 %}
-  <div class="supporter-group "> 
+  <div class="supporter-group ">
     <div class="supporters tier3">
     {% for supporter in site.data.supporters.Tier3 %}
       <div>
@@ -32,7 +32,7 @@
 {% endif %}
 
 {% if site.data.supporters.Tier2 %}
-  <div class="supporter-group"> 
+  <div class="supporter-group">
     <div class="supporters tier2">
     {% for supporter in site.data.supporters.Tier2 %}
       <div>
@@ -44,7 +44,7 @@
 {% endif %}
 
 {% if site.data.supporters.Tier1 %}
-  <div class="supporter-group"> 
+  <div class="supporter-group">
     <div class="supporters tier1">
     {% for supporter in site.data.supporters.Tier1 %}
       <div>
@@ -59,8 +59,8 @@
 
 
 {% if site.data.supporters.Other %}
-  <div class="supporter-group"> 
-    <div class="supporters other"> 
+  <div class="supporter-group">
+    <div class="supporters other">
     {% for supporter in site.data.supporters.Other %}
       <div>
         <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
