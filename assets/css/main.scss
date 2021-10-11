@@ -471,3 +471,55 @@ footer {
     border-bottom: 1px solid $white;
     margin-bottom: .5em;
 }
+
+// keynotes
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+    .hide-on-small { display: none;}
+}
+
+@media screen and (min-width: 800px) {
+    .show-on-small { display: none;}
+}
+
+.keynote-flex-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.keynote-flex-inner-container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.keynote-flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+    
+.keynote-flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+.keynote-img {
+    border-radius: 50%;
+    min-width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.keynote-flex-container-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+ 
+.keynote-flex-inner-container-mobile {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
