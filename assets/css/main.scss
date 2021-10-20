@@ -592,3 +592,17 @@ footer {
     flex-direction: row;
     text-align: center;
 }
+
+.presentation {
+  margin-bottom: 50px;
+  .speaker {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .title {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}

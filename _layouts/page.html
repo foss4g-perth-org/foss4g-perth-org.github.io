@@ -8,6 +8,13 @@ layout: default
     <h1>{{ page.title }}</h1>
     {{ content }}
   </div>
+    
+  {% if page.title == 'Program' %}
+    <div class="supporter-wrapper">
+      {%- include presentations.html -%}
+    </div>
+  {% endif %}
+
   
   {% if page.title != 'Sponsorship' %}
     <div class="supporter-wrapper">
