@@ -39,11 +39,6 @@ Here's all you need to know to attend. Keep reading to learn about: what to expe
 
 
 #### FOSS4G SotM Oceania - Yeah, we know that's a mouthful ...
-<div class="osm-logo">
-  <a href="https://wiki.openstreetmap.org/wiki/State_of_the_Map" title="OpenStreetMap: State of the Map conferences">
-    <img alt="OpenStreetMap logo" src="/assets/img/osm_logo.png" />
-  </a>
-</div>
 
 So let's break it down ...
 
