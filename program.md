@@ -9,6 +9,7 @@ description: The main event will compromise keynote speakers, 15 minute presenta
 
 ##  Conference Day: 12<sup>th</sup> November, 2021
 
+{% include schedule.html %}
 <!-- The main event will comprise:
 * regional keynote speakers streamed to hubs across Oceania
 * local keynote speakers
