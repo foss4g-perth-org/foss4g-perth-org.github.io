@@ -314,6 +314,12 @@ main {
   }
 }
 
+.osm-logo {
+  float: right;
+  width: 20%;
+  img { max-width: 100%; }
+}
+
 @media (max-width: 768px) {
   .intro-grid {
     display: block;
@@ -321,11 +327,13 @@ main {
     text-align: center;
     .logo {
       margin: 0 auto 1.5rem;
-
     }
     img {
       margin: 0 auto !important;
     }
+  }
+  .osm-logo {
+    width: 32%;
   }
 }
 
