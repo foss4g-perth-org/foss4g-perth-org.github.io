@@ -42,8 +42,11 @@ Partner:
     url: "https://osgeo-oceania.org"
     logo: osgeo-oceania.jpg
     blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.
+ 
+#OSM
+OSM:
   - name: OpenStreetMap
-    tier: Partner
+    tier: OSM
     url: "https://openstreetmap.org"
     logo: osm.png
     blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.

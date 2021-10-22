@@ -16,6 +16,20 @@
   </div>
 {% endif %}
 
+<h2>OpenStreetMap</h2>
+
+{% if site.data.supporters.OSM %}
+<div class="supporter-group">
+<div class="supporters partner">
+{% for supporter in site.data.supporters.OSM %}
+    <div>
+    <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+    </div>
+{% endfor %}
+</div>
+</div>
+{% endif %}
+
 <h2>Supported by</h2>
 
 
