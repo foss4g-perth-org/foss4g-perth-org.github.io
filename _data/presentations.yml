@@ -96,8 +96,8 @@ Lightning:
   title: An agent-based model of migratory beekeeping in Western Australia
   abstract: We developed an agent-based model using open source tools to understand how a change in forage availability relative to future climate affects spatial patterns of beehive migration in WA. The model informs sustainable management decisions within the beekeeping systems.
 
-- name: Joanne Picknoll
-  organisation: UWA
-  title: New approach to inform restoration and management decisions for apiculture
-  abstract: A new modelling approach for designing sites for apiculture that predicts how changes to site design and hive management affect the availability of resources, potential for bees to collect and consume resources and subsequently amount of honey produced. The approach is applied to a WA case study.
+# - name: Joanne Picknoll
+#   organisation: UWA
+#   title: New approach to inform restoration and management decisions for apiculture
+#   abstract: A new modelling approach for designing sites for apiculture that predicts how changes to site design and hive management affect the availability of resources, potential for bees to collect and consume resources and subsequently amount of honey produced. The approach is applied to a WA case study.
 
