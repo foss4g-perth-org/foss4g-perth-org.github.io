@@ -592,3 +592,54 @@ footer {
     flex-direction: row;
     text-align: center;
 }
+
+.presentation {
+  margin-bottom: 50px;
+  .speaker {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  .title {
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+}
+
+// Schedule Table
+table {
+    border-collapse: collapse;
+    width: 75%;
+  }
+
+td, th {
+    border-top: 1px solid #f9f9f9;
+    border-bottom: 1px solid #f9f9f9;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 8px;
+  }
+
+// th:first-child {
+//     color: $charcoal;
+//     background: rgba(200, 76, 9, 0.5);
+// }
+
+.table-header {
+    color: $charcoal;
+    background: rgba(200, 76, 9, 1); 
+}
+
+.agenda-item {
+    background: rgba(200, 76, 9, 0.5); 
+}
+
+.refreshments {
+    color: $charcoal;
+    background: rgba(200, 76, 9, 0.5); 
+}
+
+.talk-content {
+    font-size:  12px;
+}

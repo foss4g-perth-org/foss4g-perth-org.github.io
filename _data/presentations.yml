@@ -1,16 +1,103 @@
+#Invited speakers
+Invited:
+- name: Sam Wilson
+  organisation: 
+  title: OpenStreetMap
+  abstract: 
+
+- name: Ivana Ivanova
+  organisation: 
+  title: OSGeo
+  abstract: 
+
+
 #Community Presentations
-- name: John Bryant
-  organisation: Mammoth Geospatial
-  presentation_title: A community presentation
-  abstract: An abstract about community presentation talk
+FullLength:
+- name: Martin Rocks and Tim Cable
+  organisation: Winyama
+  title: Open Source Drone Mapping
+  abstract: We'll discuss the use of OpenDroneMap (ODM), an open source drone imagery processing solution, from customising our own installation of it, to how we can use it to create orthomosaics, 3D models, depth elevation models (DEMs) and more for download and eventual import into GIS software like QGIS.
 
+- name: Edward Keys
+  organisation: Prodigy Gold
+  title: "QField for Geo's part 2: Creating an effective tool to manage spatial data"
+  abstract: Following from last year's presentation, I will take you through the steps to make your own QField application. From creating a geopackage in the database manager, to attaching dynamic symbologies, QField is the answer to effectively managing spatial data collection in the field.
+
+- name: Tom Lynch
+  organisation: Gaia Resources / Trailmarker
+  title: Inventing with QGIS
+  abstract: This talk's about one way—my way—to get sorted for fast, creative QGIS plugin development, with tight feedback loops as you develop, quick access to QGIS APIs and great testability. It discusses my work with Gaia Resources building tools for North Australia and Rangelands Fire Information (NAFI).
+
+- name: Dan Dixon
+  organisation: UWA
+  title: Fire severity mapping with Landsat and Google Earth Engine
+  abstract: This talk will explore the use of Google Earth Engine for mapping the severity (level of crown scorch) of wildfires and prescribed burns in southwest Australia. Specifically, I will cover the benefits of using Earth Engine for mapping the entire catalog of fires over the past 16 years.
+
+- name: Gabriel Diosan
+  organisation: City of Canning
+  title: Rubbish Maps and the QGIS Atlas
+  abstract: A look into rebuilding a local government waste data set to overcome existing shortcomings, drive mapping queries and the use of the QGIS atlas to produce a large number of maps.
+
+- name: Ellie Cervigni
+  organisation: UWA
+  title: Daily mobility and foodscape exposure using aggregated mobile phone location data
+  abstract: Using one year of aggregated mobile phone location data we calculated the kernel density activity space (daily mobility) of IEO Deciles in Perth. The KDE was used to calculate exposure to the food environment as defined by an open dataset of food outlets created from Yelp, OSM, and Fuelwatch data.
+
+  
 #Lightning Talks
-- name: John Bryant
-  organisation: Mammoth Geospatial
-  presentation_title: A lightning talk
-  abstract: An abstract about lightning talk
+Lightning:
+- name: Ross Gillis
+  organisation: Hydrobiology
+  title: UAVs and open source tools for marine benthic habitat mapping.
+  abstract: Hydrobiology captured UAV imagery of near-shore marine environments. Orthomosaics were created using WebODM and marine benthic habitat was modelled using the Semi-Automatic Classification Plugin for QGIS. We present the considerations and pitfalls when applying this analysis.
 
 - name: John Bryant
   organisation: Mammoth Geospatial
-  presentation_title: A second lightning talk
-  abstract: An abstract about a second lightning talk
+  title: QGIS Feature Frenzy
+  abstract: The list of features in QGIS is long, and getting longer with every release. It can be hard to keep up! In this talk, I'll give a series of short demonstrations of some of my favourite features of QGIS, including a few highlights of the new 3.22 release.
+
+- name: Stafford Smith
+  organisation: Winyama
+  title: Vector tiles out of PostGIS – a simple and FOSS solution for Web Maps
+  abstract: Need vector tiles in your web mapping application for efficient loading of map data that still allows nice user interaction? Vector tile servers can be expensive. Ill show you how to make one with FOSS, (and explain what vector tiles are too)!
+
+- name: Tony Wheeler
+  organisation: SSSI (Surveying and Spatial Sciences Institute
+  title: 'The Geospatial profession:  Are we headed for extinction?'
+  abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
+
+- name: Walter Genuit
+  organisation: Department of Biodiversity, Conservation and Attractions
+  title: Geospatial data for a campground booking system
+  abstract: DBCA have developed a campground booking system allowing the public to book their camping trips. DBCA is looking to further utilise spatial data available to streamline the system and notifying booking holders of possible campground closures due to bushfires or other emergencies.
+
+- name: Adrianne Hortle
+  organisation: UWA
+  title: Applying remote sensing to assess turtle habitat change in Shark Bay
+  abstract: A remote sensing examination of seagrass extent change in Shark Bay. A combination of satellite data and observational turtle data was used to map seagrass change before and after the 2011 marine heatwave to determine the impacts of potential habitat change on the Shark Bay turtle population.
+
+- name: Vincent Dinh
+  organisation: GIS Pro
+  title: Exploring WA's Geochemistry Data Online
+  abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA). 
+
+- name: Giles Knight
+  organisation: UWA
+  title: Development of a R Shiny dashboard to visualise urban tree canopy cover
+  abstract: A brief overview of using R Shiny to create an interactive dashboard that allows users to explore urban tree canopy cover at the suburb level of the Perth, Melbourne and Sydney metropolitan regions.
+
+- name: Sharyn Hickey
+  organisation: UWA
+  title: 'Habitats on the edge: Marine and coastal habitat mapping'
+  abstract: Marine and coastal vegetations as blue carbon and nature-based solutions to climate change are currently hot topics. However, we first need to know where these habitats are. Currently, these habitats remain largely unmapped, or limited. We discuss novel and current habitat models being developed.
+
+- name: Vidushi Patel
+  organisation: UWA
+  title: An agent-based model of migratory beekeeping in Western Australia
+  abstract: We developed an agent-based model using open source tools to understand how a change in forage availability relative to future climate affects spatial patterns of beehive migration in WA. The model informs sustainable management decisions within the beekeeping systems.
+
+- name: Joanne Picknoll
+  organisation: UWA
+  title: New approach to inform restoration and management decisions for apiculture
+  abstract: A new modelling approach for designing sites for apiculture that predicts how changes to site design and hive management affect the availability of resources, potential for bees to collect and consume resources and subsequently amount of honey produced. The approach is applied to a WA case study.
+
