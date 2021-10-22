@@ -1,14 +1,14 @@
 #Invited speakers
 Invited:
 - name: Sam Wilson
-  organisation: 
+  organisation:
   title: OpenStreetMap
-  abstract: 
+  abstract:
 
 - name: Ivana Ivanova
-  organisation: 
+  organisation:
   title: OSGeo
-  abstract: 
+  abstract:
 
 
 #Community Presentations
@@ -43,7 +43,7 @@ FullLength:
   title: Daily mobility and foodscape exposure using aggregated mobile phone location data
   abstract: Using one year of aggregated mobile phone location data we calculated the kernel density activity space (daily mobility) of IEO Deciles in Perth. The KDE was used to calculate exposure to the food environment as defined by an open dataset of food outlets created from Yelp, OSM, and Fuelwatch data.
 
-  
+
 #Lightning Talks
 Lightning:
 - name: Ross Gillis
@@ -79,12 +79,12 @@ Lightning:
 - name: Vincent Dinh
   organisation: GIS Pro
   title: Exploring WA's Geochemistry Data Online
-  abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA). 
+  abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA).
 
 - name: Giles Knight
   organisation: UWA
-  title: Development of a R Shiny dashboard to visualise urban tree canopy cover
-  abstract: A brief overview of using R Shiny to create an interactive dashboard that allows users to explore urban tree canopy cover at the suburb level of the Perth, Melbourne and Sydney metropolitan regions.
+  title: A dashboard approach to understanding urban tree canopy cover across Australian cities
+  abstract: This presentation unpacks some recent research conducted to investigate the present state of urban tree canopy cover  within Australian cities, and how open source tools can be used to create compelling platforms for communicating results online.
 
 - name: Sharyn Hickey
   organisation: UWA
@@ -95,9 +95,3 @@ Lightning:
   organisation: UWA
   title: An agent-based model of migratory beekeeping in Western Australia
   abstract: We developed an agent-based model using open source tools to understand how a change in forage availability relative to future climate affects spatial patterns of beehive migration in WA. The model informs sustainable management decisions within the beekeeping systems.
-
-- name: Joanne Picknoll
-  organisation: UWA
-  title: New approach to inform restoration and management decisions for apiculture
-  abstract: A new modelling approach for designing sites for apiculture that predicts how changes to site design and hive management affect the availability of resources, potential for bees to collect and consume resources and subsequently amount of honey produced. The approach is applied to a WA case study.
-
