@@ -21,7 +21,7 @@ description: We’re excited to announce that FOSS4G Perth will once again be a 
     <div>191 St Georges Terrace, Perth, WA</div>
     <div class="label">Workshop Day</div>
     <div>Friday, 13 November 2021</div>
-    <div>The University of Western Australia</div>
+    <!-- <div>The University of Western Australia</div> -->
     <div class="label">Stay Updated</div>
     <div>Stay tuned to the latest FOSS4G Perth news by joining the mailing list.</div>
     <div class="button_wrapper">
