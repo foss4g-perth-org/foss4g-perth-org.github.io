@@ -1,6 +1,13 @@
+#Partner
+Partner:
+  - name: OSGeo Oceania
+    tier: Partner
+    url: "https://osgeo-oceania.org"
+    logo: osgeo-oceania.jpg
+    blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.
+
 #Tier 3
 Tier3:
-
 
 # Tier 2
 Tier2:
@@ -30,23 +37,24 @@ Tier1:
     logo: MammothGeospatial_logo.png
     blurb: We specialise in free and open source GIS. Our mission is to help you connect with the power of open geospatial, and enjoy the freedom to engage with technology on your own terms. We're based in Fremantle, but we work on open geospatial projects around the world.
 
+  - name: Hydrobiology
+    tier: 1
+    url: "https://hydrobiology.com"
+    logo: hydrobiology_logo.png
+    blurb: Hydrobiology is an environmental consulting company offering integrated services in the physical, biological and chemical processes of environmental systems with a particular emphasis on the aquatic environment. Hydrobiology’s focus is technical excellence and high level scientific expertise delivered within a commercial framework. We are able to provide our clients with the best possible understanding of environmental risk for their environmental and impact management needs.
 
-#Other
-Other:
-
-
-#Partner
-Partner:
-  - name: OSGeo Oceania
-    tier: Partner
-    url: "https://osgeo-oceania.org"
-    logo: osgeo-oceania.jpg
-    blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.
- 
 #OSM
-OSM:
+Associate:
   - name: OpenStreetMap
-    tier: OSM
+    tier: Associate
     url: "https://openstreetmap.org"
     logo: osm.png
     blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.
+  - name: OSGeo
+    tier: Associate
+    url: "https://www.osgeo.org/"
+    logo: osgeo.svg
+    blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.
+
+#Other
+Other:
