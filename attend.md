@@ -36,7 +36,7 @@ Workshops are ticketed separately from the conference and priced at $25 to cover
 This workshop will get you started with QGIS, the full-featured open source GIS desktop software. We'll run through a series of hands-on exercises around working with vector & raster data, styling and labeling, and making maps. If you're new to QGIS, this will be an excellent foundation for the afternoon QField workshop.
 
 ### Afternoon workshop: Data collection with QField
-This workshop will introduce you to QField, the mobile GIS app that let's you collect geospatial data in-the-field and seamlessly integrate it with your QGIS environment. You'll get an introduction to the QField interface and run through exercises demonstrating how to set up data collection projects on QGIS, best practice for designing powerful data collection forms, and various tips and tricks along the way.
+This workshop will introduce you to QField, the mobile GIS app that lets you collect geospatial data in-the-field and seamlessly integrate it with your QGIS environment. You'll get an introduction to the QField interface and run through exercises demonstrating how to set up data collection projects on QGIS, best practice for designing powerful data collection forms, and various tips and tricks along the way.
 
 ### Full day workshop: Contributing to OpenStreetMap
 A free, full day workshop aimed at learning some of the main OpenStreetMap tools and techniques, such as the iD and JOSM editors; StreetComplete, OsmAnd, and Vespucci mobile apps; the Overpass API; as well as some good old outdoors ground-truthing. We'll also talk about how to stay in touch with the OSM community.
