@@ -13,10 +13,20 @@ Invited:
 
 #Community Presentations
 FullLength:
+- name: Tom Lynch
+  organisation: Gaia Resources / Trailmarker
+  title: Inventing with QGIS
+  abstract: This talk's about one way—my way—to get sorted for fast, creative QGIS plugin development, with tight feedback loops as you develop, quick access to QGIS APIs and great testability. It discusses my work with Gaia Resources building tools for North Australia and Rangelands Fire Information (NAFI).
+
 - name: Ellie Cervigni
   organisation: UWA
   title: Daily mobility and foodscape exposure using aggregated mobile phone location data
   abstract: Using one year of aggregated mobile phone location data we calculated the kernel density activity space (daily mobility) of IEO Deciles in Perth. The KDE was used to calculate exposure to the food environment as defined by an open dataset of food outlets created from Yelp, OSM, and Fuelwatch data.
+
+- name: Edward Keys
+  organisation: Prodigy Gold
+  title: "QField for Geo's part 2: Creating an effective tool to manage spatial data"
+  abstract: Following from last year's presentation, I will take you through the steps to make your own QField application. From creating a geopackage in the database manager, to attaching dynamic symbologies, QField is the answer to effectively managing spatial data collection in the field.
 
 - name: Gabriel Diosan
   organisation: City of Canning
@@ -28,16 +38,6 @@ FullLength:
   title: Fire severity mapping with Landsat and Google Earth Engine
   abstract: This talk will explore the use of Google Earth Engine for mapping the severity (level of crown scorch) of wildfires and prescribed burns in southwest Australia. Specifically, I will cover the benefits of using Earth Engine for mapping the entire catalog of fires over the past 16 years.
 
-- name: Edward Keys
-  organisation: Prodigy Gold
-  title: "QField for Geo's part 2: Creating an effective tool to manage spatial data"
-  abstract: Following from last year's presentation, I will take you through the steps to make your own QField application. From creating a geopackage in the database manager, to attaching dynamic symbologies, QField is the answer to effectively managing spatial data collection in the field.
-
-- name: Tom Lynch
-  organisation: Gaia Resources / Trailmarker
-  title: Inventing with QGIS
-  abstract: This talk's about one way—my way—to get sorted for fast, creative QGIS plugin development, with tight feedback loops as you develop, quick access to QGIS APIs and great testability. It discusses my work with Gaia Resources building tools for North Australia and Rangelands Fire Information (NAFI).
-
 - name: Martin Rocks and Tim Cable
   organisation: Winyama
   title: Open Source Drone Mapping
@@ -48,36 +48,40 @@ FullLength:
 #Lightning Talks
 Lightning:
 
-- name: John Bryant
-  organisation: Mammoth Geospatial
-  title: QGIS Feature Frenzy
-  abstract: The list of features in QGIS is long, and getting longer with every release. It can be hard to keep up! In this talk, I'll give a series of short demonstrations of some of my favourite features of QGIS, including a few highlights of the new 3.22 release.
+- name: Ross Gillis
+  organisation: Hydrobiology
+  title: UAVs and open source tools for marine benthic habitat mapping
+  abstract: Hydrobiology captured UAV imagery of near-shore marine environments. Orthomosaics were created using WebODM and marine benthic habitat was modelled using the Semi-Automatic Classification Plugin for QGIS. We present the considerations and pitfalls when applying this analysis.
 
 - name: Vincent Dinh
   organisation: GIS Pro
   title: Exploring WA's Geochemistry Data Online
   abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA).
 
-- name: Walter Genuit
-  organisation: Department of Biodiversity, Conservation and Attractions
-  title: Geospatial data for a campground booking system
-  abstract: DBCA have developed a campground booking system allowing the public to book their camping trips. DBCA is looking to further utilise spatial data available to streamline the system and notifying booking holders of possible campground closures due to bushfires or other emergencies.
-
-- name: Ross Gillis
-  organisation: Hydrobiology
-  title: UAVs and open source tools for marine benthic habitat mapping
-  abstract: Hydrobiology captured UAV imagery of near-shore marine environments. Orthomosaics were created using WebODM and marine benthic habitat was modelled using the Semi-Automatic Classification Plugin for QGIS. We present the considerations and pitfalls when applying this analysis.
+- name: Tony Wheeler
+  organisation: SSSI (Surveying and Spatial Sciences Institute
+  title: 'The Geospatial profession:  Are we headed for extinction?'
+  abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
 
 - name: Sharyn Hickey
   organisation: UWA
   title: 'Habitats on the edge: Marine and coastal habitat mapping'
   abstract: Marine and coastal vegetations as blue carbon and nature-based solutions to climate change are currently hot topics. However, we first need to know where these habitats are. Currently, these habitats remain largely unmapped, or limited. We discuss novel and current habitat models being developed.
 
+- name: John Bryant
+  organisation: Mammoth Geospatial
+  title: QGIS Feature Frenzy
+  abstract: The list of features in QGIS is long, and getting longer with every release. It can be hard to keep up! In this talk, I'll give a series of short demonstrations of some of my favourite features of QGIS, including a few highlights of the new 3.22 release.
+
+- name: Walter Genuit
+  organisation: Department of Biodiversity, Conservation and Attractions
+  title: Geospatial data for a campground booking system
+  abstract: DBCA have developed a campground booking system allowing the public to book their camping trips. DBCA is looking to further utilise spatial data available to streamline the system and notifying booking holders of possible campground closures due to bushfires or other emergencies.
+
 - name: Giles Knight
   organisation: UWA
   title: A dashboard approach to understanding urban tree canopy cover across Australian cities
   abstract: This presentation unpacks some recent research conducted to investigate the present state of urban tree canopy cover  within Australian cities, and how open source tools can be used to create compelling platforms for communicating results online.
-
 
 - name: Vidushi Patel
   organisation: UWA
@@ -88,8 +92,3 @@ Lightning:
   organisation: Winyama
   title: Vector tiles out of PostGIS – a simple and FOSS solution for Web Maps
   abstract: Need vector tiles in your web mapping application for efficient loading of map data that still allows nice user interaction? Vector tile servers can be expensive. Ill show you how to make one with FOSS, (and explain what vector tiles are too)!
-
-- name: Tony Wheeler
-  organisation: SSSI (Surveying and Spatial Sciences Institute
-  title: 'The Geospatial profession:  Are we headed for extinction?'
-  abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
