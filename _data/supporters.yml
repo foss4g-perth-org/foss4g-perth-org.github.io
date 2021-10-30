@@ -43,6 +43,13 @@ Tier1:
     logo: hydrobiology_logo.png
     blurb: Hydrobiology is an environmental consulting company offering integrated services in the physical, biological and chemical processes of environmental systems with a particular emphasis on the aquatic environment. Hydrobiology’s focus is technical excellence and high level scientific expertise delivered within a commercial framework. We are able to provide our clients with the best possible understanding of environmental risk for their environmental and impact management needs.
 
+
+  - name: Libertas Infinity
+    tier: 1
+    url: "https://www.linkedin.com/company/libertas8"
+    logo: Libertas.png
+    blurb: Libertas Infinity offers GIS and Cartographic services to the Mining and Oil and Gas industries. We have an array of experienced professionals that can provide their services either on location or from their home office. Libertas is committed to supporting software developers and transitioning to open source software. Contact Shane at sdelany@libertas8.com.
+
 #OSM
 Associate:
   - name: OpenStreetMap
