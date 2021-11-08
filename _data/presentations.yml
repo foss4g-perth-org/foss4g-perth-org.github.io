@@ -63,10 +63,10 @@ Lightning:
   title: 'The Geospatial profession:  Are we headed for extinction?'
   abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
 
-- name: Sharyn Hickey
-  organisation: UWA
-  title: 'Habitats on the edge: Marine and coastal habitat mapping'
-  abstract: Marine and coastal vegetations as blue carbon and nature-based solutions to climate change are currently hot topics. However, we first need to know where these habitats are. Currently, these habitats remain largely unmapped, or limited. We discuss novel and current habitat models being developed.
+# - name: Sharyn Hickey
+#   organisation: UWA
+#   title: 'Habitats on the edge: Marine and coastal habitat mapping'
+#   abstract: Marine and coastal vegetations as blue carbon and nature-based solutions to climate change are currently hot topics. However, we first need to know where these habitats are. Currently, these habitats remain largely unmapped, or limited. We discuss novel and current habitat models being developed.
 
 - name: John Bryant
   organisation: Mammoth Geospatial
