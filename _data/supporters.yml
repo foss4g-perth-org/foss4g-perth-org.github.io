@@ -48,7 +48,13 @@ Tier1:
     tier: 1
     url: https://www.linkedin.com/company/libertas8
     logo: Libertas.png
-    blurb: Libertas Infinity offers GIS and Cartographic services to the Mining and Oil and Gas industries. We have an array of experienced professionals that can provide their services either on location or from their home office. Libertas is committed to supporting software developers and transitioning to open source software. Contact Shane at sdelany@libertas8.com.
+    blurb:
+
+  - name: NJM Spatial
+    tier: 1
+    url:
+    logo: NJMSpatial.png
+    blurb:
 
 #OSM
 Associate:
