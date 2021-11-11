@@ -58,10 +58,10 @@ Lightning:
   title: Exploring WA's Geochemistry Data Online
   abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA).
 
-- name: Tony Wheeler
-  organisation: SSSI (Surveying and Spatial Sciences Institute
-  title: 'The Geospatial profession:  Are we headed for extinction?'
-  abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
+# - name: Tony Wheeler
+#   organisation: SSSI (Surveying and Spatial Sciences Institute
+#   title: 'The Geospatial profession:  Are we headed for extinction?'
+#   abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
 
 # - name: Sharyn Hickey
 #   organisation: UWA
