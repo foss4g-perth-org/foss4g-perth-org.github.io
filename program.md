@@ -7,6 +7,11 @@ description: The main event will compromise keynote speakers, 15 minute presenta
 
 <!-- **We're working on the program details right now. Stay tuned!** -->
 
+## Workshop Day: 13<sup>th</sup> November
+
+### Data collection with QField
+<a href="https://docs.google.com/presentation/d/e/2PACX-1vQUgue-rEXPtBmJL9vaP230YnPh_0jvDJCDlumjv9d8gajrHFDGFKiuGNuNVcuOekSlsz8L4Dcn1t_A/pub?start=false&loop=false&delayms=3000" target="_blank">QField workshop slides</a>
+
 ##  Conference Day: 12<sup>th</sup> November, 2021
 
 {% include schedule.html %}
@@ -113,14 +118,14 @@ We're excited to announce that two fantastic keynote talks are confirmed for the
 </div>
 
 
+
+
+
 <!-- ## Workshop Day: 13<sup>th</sup> November
 
 We're aiming to run workshops at The University of Western Australia's campus on the 13<sup>th</sup> November. Stay tuned for details! -->
 
 <!-- To make this happen, we're looking for instructors to contribute workshops. If you've got a skill to share and would like to run a workshop please [submit your workshop proposal](https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?usp=sf_link) or <a href="mailto:perth-hub@foss4g-oceania.org?subject=workshops">get in touch</a> for further details. -->
-
-
-
 
 <!--
 ## Schedule
