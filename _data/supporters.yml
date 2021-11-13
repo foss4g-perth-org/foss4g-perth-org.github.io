@@ -1,24 +1,31 @@
+#Partner
+Partner:
+  - name: OSGeo Oceania
+    tier: Partner
+    url: https://osgeo-oceania.org
+    logo: osgeo-oceania.jpg
+    blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.
+
 #Tier 3
 Tier3:
-
 
 # Tier 2
 Tier2:
   - name: Gaia Resources
     tier: 2
-    url: "https://www.gaiaresources.com.au"
+    url: https://www.gaiaresources.com.au
     logo: gaiaResources_logo.jpg
     blurb: 'Gaia Resources is a consultancy that responsibly delivers sustainable technology solutions to make the world a better place, in a range of fields including data science, spatial, environment, health, and museums, archives & collections. Our team includes software and mobile engineers, scientists, project managers and business analysts. We support open software and open data, and we have developed a strong reputation for providing quality services and ensuring the best for our clients.'
 
   - name: Winyama
     tier: 2
-    url: "https://www.winyama.com.au"
+    url: https://www.winyama.com.au
     logo: winyama+logo.JPG
     blurb: 'Winyama is a Western Australian, Indigenous owned and operated business. We aim to be the leading provider of location intelligence and digital solutions in our target markets across the commercial and public sector, while facilitating the digital engagement of Indigenous people and communities. Winyama is a fully certified Supply Nation business and through our capability partners, we utilise a variety of technology in mapping, data management and analysis to deliver digital solutions enabling our clients to manage their land and assets in response to environmental, cultural, economic and resource demands.'
 
   - name: Oslandia
     tier: 2
-    url: "https://oslandia.com"
+    url: https://oslandia.com
     logo: oslandia_logo_v2_164x154.png
     blurb: Oslandia is a successful tech company founded in 2009 by Vincent Picavet. We specialise in Open Source GIS development & support and we line up the largest team of active developers to the QGIS project with over 15 full time developers. Our software engineers also demonstrate the highest expertise in PostGIS, the high performance spatial database technology at the core of QGIS. Oslandia's business model focuses on industrial quality Open Source.
 
@@ -26,27 +33,47 @@ Tier2:
 Tier1:
   - name: Mammoth Geospatial
     tier: 1
-    url: "https://mammothgeospatial.com"
+    url: https://mammothgeospatial.com
     logo: MammothGeospatial_logo.png
     blurb: We specialise in free and open source GIS. Our mission is to help you connect with the power of open geospatial, and enjoy the freedom to engage with technology on your own terms. We're based in Fremantle, but we work on open geospatial projects around the world.
 
+  - name: Hydrobiology
+    tier: 1
+    url: https://hydrobiology.com
+    logo: hydrobiology_logo.png
+    blurb: Hydrobiology is an environmental consulting company offering services in the physical, biological and chemical processes of environmental systems with a particular emphasis on the aquatic environment. We have technical strengths in risk assessment, impact assessment, hydrology, ecotoxicology, freshwater and marine ecology, river mechanics, water quality, geochemistry and contaminated sediment management.
+
+
+  - name: Libertas Infinity
+    tier: 1
+    url: https://www.linkedin.com/company/libertas8
+    logo: Libertas.png
+    blurb:
+
+  - name: NJM Spatial
+    tier: 1
+    url:
+    logo: NJMSpatial.png
+    blurb:
+
+  - name: Curtin University
+    tier: 1
+    url: https://www.curtin.edu.au/
+    logo: curtin_logo.jpg
+    blurb:
+
+#OSM
+Associate:
+  - name: OpenStreetMap
+    tier: Associate
+    url: https://openstreetmap.org
+    logo: osm.png
+    blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.
+  - name: OSGeo
+    tier: Associate
+    url: https://www.osgeo.org/
+    logo: osgeo.svg
+    blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.
 
 #Other
 Other:
-
-
-#Partner
-Partner:
-  - name: OSGeo Oceania
-    tier: Partner
-    url: "https://osgeo-oceania.org"
-    logo: osgeo-oceania.jpg
-    blurb: OSGeo Oceania is a volunteer organisation devoted to growing and enabling the OpenStreetMap and Open Source Geospatial communities in Oceania and the surrounding nations. We welcome participants of all skill levels, from hobbyists to professionals, engaged with mapping in Oceania.
- 
-#OSM
-OSM:
-  - name: OpenStreetMap
-    tier: OSM
-    url: "https://openstreetmap.org"
-    logo: osm.png
-    blurb: OpenStreetMap is a free, editable map of the whole world that is built by volunteers largely from scratch and released with an open-content license.

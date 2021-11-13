@@ -1,6 +1,5 @@
 {% if site.data.supporters %}
 
-
 <div class="inner-support">
   <h2>Conference partner</h2>
 
@@ -16,22 +15,7 @@
   </div>
 {% endif %}
 
-<h2>In association with OpenStreetMap</h2>
-
-{% if site.data.supporters.OSM %}
-<div class="supporter-group">
-<div class="supporters partner">
-{% for supporter in site.data.supporters.OSM %}
-    <div>
-    <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
-    </div>
-{% endfor %}
-</div>
-</div>
-{% endif %}
-
 <h2>Supported by</h2>
-
 
 {% if site.data.supporters.Tier3 %}
   <div class="supporter-group ">
@@ -69,9 +53,21 @@
   </div>
 {% endif %}
 
+<h2>In association with</h2>
+
+{% if site.data.supporters.Associate %}
+  <div class="supporter-group">
+    <div class="supporters associate">
+    {% for supporter in site.data.supporters.Associate %}
+        <div>
+          <a href="{{ supporter.url }}" target="_blank"><img src="/assets/img/sponsor_logos/{{ supporter.logo }}" title="{{supporter.name}}"></a>
+        </div>
+    {% endfor %}
+    </div>
+  </div>
+{% endif %}
+
 <!-- <h3>Additional thanks to</h3> -->
-
-
 {% if site.data.supporters.Other %}
   <div class="supporter-group">
     <div class="supporters other">
