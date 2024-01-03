@@ -4,7 +4,7 @@
 
 ### Install Jekyll
 
-See http://jekyllrb.com/docs/installation/
+See https://jekyllrb.com/docs/installation/
 
 `gem install bundler jekyll`
 
@@ -16,6 +16,6 @@ See http://jekyllrb.com/docs/installation/
 
 * `git clone repo location`
 * `cd folder name`
-* `jekyll serve -wl`
+* `bundle exec jekyll serve`
 
 => Now browse to http://localhost:4000
