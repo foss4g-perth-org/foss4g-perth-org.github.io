@@ -7,15 +7,17 @@
     <div class="wrapper">
       
       {% include nav.html %}
-      <div class="parallax"><span class="credit">Chris King - Unsplash</span></div>
+      {% if page.id == 'home' %}
+        <div class="parallax"><span class="credit">Chris King - Unsplash</span></div>
+      {% endif %}
 
-        <main class="page-content responsive-wrapper" aria-label="Content">
+      <main class="page-content responsive-wrapper" aria-label="Content">
         
-            {{ content }}
+        {{ content }}
         
-        </main>
-
-        {%- include footer.html -%}
+      </main> 
+      <div class="photo-banner"></div>
+      {%- include footer.html -%}
     </div>
   </body>
 </html>

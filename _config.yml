@@ -17,10 +17,10 @@ description: FOSS4G Perth - open source geospatial conference, Perth, Western Au
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: foss4g_perth
+# twitter_username: foss4g_perth
 # github_username:
 slack: 'Geogeeks'
-email: 'perth-hub@foss4g-oceania.org'
+email: 'foss4gperth@gmail.com'
 header_logo: 'assets/img/FOSS4G_Perth_logo_black.png'
 
 # Google Analytics

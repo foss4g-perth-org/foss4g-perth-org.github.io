@@ -10,7 +10,10 @@ See https://jekyllrb.com/docs/installation/
 
 ### Install gems
 
-`bundle install`
+```bash
+bundle config set --local path 'vendor/bundle'
+bundle install
+```
 
 ### View locally
 

@@ -27,47 +27,30 @@ h1 {
 
 }
 h2 {
-  margin-bottom: 2rem;
   font-weight: 300;
-  font-size: 2.0rem;
-  line-height: 2.8rem
-
+  font-size: 1.75rem;
 }
 
 h3 {
-  color: $color_two;
   font-size: 1.4rem;
-  margin-bottom: 2.5rem;
-  font-weight: 500;
-  margin-top: 2rem;
-  line-height: 2rem
-
+  font-weight: 300;
 }
 
 h4 {
   font-size: 1.3rem;
 }
 
-  @media screen and (max-width: 768px) {
-    h1 {
-      font-size: 2.2rem;
-      line-height: 2.8rem
-    }
-  }
-
-  .parallax {
-  background-image: url("/assets/img/chris-king-unsplash.jpg");
-  min-height: 200px;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  .credit {
-    font-size: 0.6rem;
-    display: flex;
-    justify-content: end;
-    padding-right: 10px;
-  }
+.text-sm {
+  font-size: 0.875rem;
+}
+.italic {
+  font-style: italic;
+}
+.bold {
+  font-weight: 500;
+}
+.color-two {
+  color: $color_two;
 }
 
 a {
@@ -122,9 +105,8 @@ a.navbar-brand {
   color: $color_two;
   font-size: 1.8rem;
   padding: 0.2rem 0;
-  font-family: 'Roboto';
+  font-family: $primary;
 }
-
 
 :root {
 	--header-outer-height: 110px;
@@ -175,11 +157,9 @@ header {
 }
 
 .nav-menu a {
-	font-size: 1.125rem;
 	color: inherit;
 	margin-left: 1.75rem;
 	position: relative;
-  font-weight: 500;
   padding: 0.25rem 0;
 }
 
@@ -224,67 +204,43 @@ header {
   background-color: #101010;
 }
 
-@media only screen and (max-width: 1020px) {
 
-    header {
-      top: 0;
-    }
+.parallax {
+  background-image: url("/assets/img/chris-king-unsplash.jpg");
+  min-height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .credit {
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: end;
+    padding-right: 10px;
+  }
+}
 
-    .navbar {
-      height: var(--header-outer-height);
-    }
+.photo-banner {
+  background-image: url("/assets/img/banner.png");
+  min-height: 200px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  margin-top: 40px;
+}
 
-    .nav-menu {
-      position: fixed;
-      right: -100%;
-      padding: 0;
-      top: 5rem;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-    }
-
-    .nav-menu a {
-      margin-left: 0rem;
-    }
-
-    .nav-menu.active {
-      right: 0;
-      box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
-    }
-
-    .nav-item {
-      margin: 1rem 0;
-    }
-
-    .hamburger {
-      display: block;
-      cursor: pointer;
-      background: $white;
-      border: none;
-    }
-
-    .hamburger.active .bar:nth-child(2) {
-      opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-      transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-      transform: translateY(-8px) rotate(-45deg);
-    }
-
+footer {
+  background-image: url("/assets/img/chris-king-unsplash.jpg");
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 //content
 
 .responsive-wrapper {
-  width: 90%;
-  max-width: 1280px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   flex-grow: 1;
@@ -292,33 +248,24 @@ header {
 
 main {
   margin: 0 auto;
-  padding: 0 20px;
 }
 
 .main-content {
   margin-bottom: 2rem;
-}
-
-.bold {
-  font-weight: 600;
-  color: $color_one;
-  font-size: 2rem;
+  padding: 0 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 // home
 .intro {
   font-size: 1.8rem;
-  padding: 100px 0;
+  padding: 50px 0;
   margin: 0 auto; 
   text-align: center;
   line-height: 3rem;
   max-width: 1000px;
 }
-
-
-@media (max-width: 768px) {
-}
-
 
 // supporters
 
@@ -387,37 +334,6 @@ main {
       width: 100%;
     }
 
-  }
-}
-
-
-
-@media (max-width: 768px) {
-  .supporters {
-    &.partner {
-        grid-template-columns: 1fr;
-      }
-    &.tier3 {
-      grid-template-columns: 1fr;
-    }
-    &.tier2 {
-      grid-template-columns: 1fr;
-    }
-    &.tier1 {
-      grid-template-columns: repeat(2, 1fr);
-    }
-    &.other {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-
-  .sponsor-group {
-    a {
-      color: $charcoal;
-    }
-    .sponsors {
-      display: block;
-    }
   }
 }
 
@@ -491,13 +407,6 @@ footer {
     justify-content: space-around;
 }
 
-@media screen and (max-width: 768px) {
-  .submit-button{
-    display: block;
-    margin: 0 auto;
-  }
-}
-
 // submission forms
 
 .details-submission {
@@ -524,14 +433,6 @@ footer {
 }
 
 // keynotes
-
-@media screen and (min-width: 0px) and (max-width: 799px) {
-    .hide-on-small { display: none;}
-}
-
-@media screen and (min-width: 800px) {
-    .show-on-small { display: none;}
-}
 
 .keynote-flex-container {
     display: flex;
@@ -624,4 +525,110 @@ td, th {
 
 .talk-content {
     font-size:  12px;
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 2.2rem;
+    line-height: 2.8rem
+  }
+  .supporters {
+    &.partner {
+        grid-template-columns: 1fr;
+      }
+    &.tier3 {
+      grid-template-columns: 1fr;
+    }
+    &.tier2 {
+      grid-template-columns: 1fr;
+    }
+    &.tier1 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    &.other {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .sponsor-group {
+    a {
+      color: $charcoal;
+    }
+    .sponsors {
+      display: block;
+    }
+  }
+  .submit-button{
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 799px) {
+  .hide-on-small { display: none;}
+}
+
+@media screen and (min-width: 800px) {
+  .show-on-small { display: none;}
+}
+
+@media only screen and (max-width: 1020px) {
+
+  header {
+    top: 0;
+  }
+
+  footer {
+    background-image: none;
+  }
+
+  .navbar {
+    height: var(--header-outer-height);
+  }
+
+  .nav-menu {
+    position: fixed;
+    right: -100%;
+    padding: 0;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .nav-menu a {
+    margin-left: 0rem;
+  }
+
+  .nav-menu.active {
+    right: 0;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-item {
+    margin: 1rem 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    background: $white;
+    border: none;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
 }

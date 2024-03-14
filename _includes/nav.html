@@ -3,9 +3,30 @@
       <a class="navbar-brand" href="{{site.baseurl}}/">
         <img width="250" src="{{site.header_logo}}">
       </a>
-        <!-- <ul class="nav-menu" >
+        <ul class="nav-menu" >
 
-          {% if page.active == "attend" %}
+          {% if page.active == "about" %}
+          <li class="nav-item">
+              <a class="active href="{{site.baseurl}}/about">About</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+              <a href="{{site.baseurl}}/about">About</a>
+          </li>
+          {% endif %}
+
+          {% if page.active == "presentations" %}
+          <li class="nav-item">
+            <a class="active  href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
+          </li>
+          {% else %}
+          <li class="nav-item">
+            <a href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
+          </li>
+          {% endif %}
+
+
+          <!-- {% if page.active == "attend" %}
           <li class="nav-item">
               <a class="active href="{{site.baseurl}}/attend">Attend</a>
           </li>
@@ -13,9 +34,9 @@
           <li class="nav-item">
               <a href="{{site.baseurl}}/attend">Attend</a>
           </li>
-          {% endif %}
+          {% endif %} -->
 
-          {% if page.active == "program" %}
+          <!-- {% if page.active == "program" %}
           <li class="nav-item">
             <a class="active href="{{site.baseurl}}/program">Program</a>
           </li>
@@ -23,9 +44,9 @@
           <li class="nav-item">
             <a href="{{site.baseurl}}/program">Program</a>
           </li>
-          {% endif %}
+          {% endif %} -->
 
-          {% if page.active == "grants" %}
+          <!-- {% if page.active == "grants" %}
           <li class="nav-item">
             <a class="active  href="{{site.baseurl}}/grant-program">Grant program</a>
           </li>
@@ -33,9 +54,9 @@
           <li class="nav-item">
             <a href="{{site.baseurl}}/grant-program">Grant program</a>
           </li>
-          {% endif %}
+          {% endif %} -->
           
-          {% if page.active == "sponsorship" %}
+          <!-- {% if page.active == "sponsorship" %}
           <li class="nav-item">
             <a class="active  href="{{site.baseurl}}/sponsorship">Sponsorship</a>
           </li>
@@ -43,18 +64,18 @@
           <li class="nav-item">
             <a href="{{site.baseurl}}/sponsorship">Sponsorship</a>
           </li>
-          {% endif %}
+          {% endif %} -->
         </ul>
        <button id="toggle" aria-expanded="false" class="hamburger" role="button">
            <span class="bar"></span>
             <span class="bar"></span>
             <span class="bar"></span>
-        </button> -->
+        </button>
     </nav>  
 
 </header>
 
-<!-- <script>
+<script>
 // toggle hamburger menu open and closed
 
 const hamburger = document.querySelector(".hamburger");
@@ -83,4 +104,4 @@ function scrollFunction() {
 }
 
 
-</script> -->
+</script>
