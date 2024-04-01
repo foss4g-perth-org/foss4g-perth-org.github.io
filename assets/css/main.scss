@@ -226,7 +226,6 @@ header {
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
-  margin-top: 40px;
 }
 
 footer {
@@ -525,6 +524,58 @@ td, th {
 
 .talk-content {
     font-size:  12px;
+}
+
+#signup-wrapper {
+  margin-top: 40px;
+  background-color: $color_two;
+}
+
+#signup {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+#signup h4 {
+margin-bottom: 10px;
+color: #fff;
+font-weight: 400;;
+}
+
+#mc_embed_signup {
+  margin: 0 auto;
+}
+
+#mc_embed_signup .mc-field-group {
+  font-size: 0.8rem;
+  margin: 0 auto;
+}
+
+
+#mc_embed_signup form {
+  margin: 0;
+  color: #fff;
+
+}
+
+#mc_embed_signup .foot {
+  display: flex;
+  justify-content: center;
+}
+
+#mc_embed_signup .button {
+  background-color: $color_three;
+}
+
+
+#mc_embed_signup .mc-field-group {
+  padding-bottom: 10px;
+}
+
+#mc_embed_signup #mce-success-response {
+  color: $color_three;
 }
 
 @media screen and (max-width: 768px) {
