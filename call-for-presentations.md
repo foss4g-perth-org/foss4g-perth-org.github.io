@@ -5,7 +5,7 @@ active: presentations
 description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal.
 ---
 
-**We have not yet issued our call for presentations (check back in April to see our timeline).**
+**We have not yet issued our call for presentations (check back soon to see our timeline).**
 
 For those of you who can't wait, here's a guide on what we will be looking for.
 
@@ -76,4 +76,4 @@ You may be an experienced presenter, or perhaps this is the first time you've ev
 
 ## Facilities
 
-Presenters will have access to a projection screen and microphone. 
+Presenters will have access to a projection screen and microphone.
