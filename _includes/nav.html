@@ -3,76 +3,34 @@
       <a class="navbar-brand" href="{{site.baseurl}}/">
         <img width="250" src="{{site.header_logo}}">
       </a>
-        <ul class="nav-menu" >
+      <ul class="nav-menu" >
 
-          {% if page.active == "about" %}
-          <li class="nav-item">
-              <a class="active href="{{site.baseurl}}/about">About</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-              <a href="{{site.baseurl}}/about">About</a>
-          </li>
-          {% endif %}
+        <li class="nav-item">
+            <a class="{% if page.active == 'about' %} active{% endif %}" href="{{site.baseurl}}/about">About</a>
+        </li>
 
-          {% if page.active == "presentations" %}
-          <li class="nav-item">
-            <a class="active  href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-            <a href="{{site.baseurl}}/call-for-presentations">Call for presentations</a>
-          </li>
-          {% endif %}
+        <li class="nav-item">
+          <a class="{% if page.active == 'registration' %} active{% endif %}"  href="{{site.baseurl}}/registration">Registration</a>
+        </li>
 
+        <li class="nav-item">
+          <a class="{% if page.active == 'program' %} active{% endif %}"  href="{{site.baseurl}}/program">Program</a>
+        </li>
 
-          <!-- {% if page.active == "attend" %}
-          <li class="nav-item">
-              <a class="active href="{{site.baseurl}}/attend">Attend</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-              <a href="{{site.baseurl}}/attend">Attend</a>
-          </li>
-          {% endif %} -->
+        <li class="nav-item">
+          <a class="{% if page.active == 'sponsors' %} active{% endif %}"  href="{{site.baseurl}}/sponsors">Sponsors</a>
+        </li>
 
-          <!-- {% if page.active == "program" %}
-          <li class="nav-item">
-            <a class="active href="{{site.baseurl}}/program">Program</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-            <a href="{{site.baseurl}}/program">Program</a>
-          </li>
-          {% endif %} -->
-
-          <!-- {% if page.active == "grants" %}
-          <li class="nav-item">
-            <a class="active  href="{{site.baseurl}}/grant-program">Grant program</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-            <a href="{{site.baseurl}}/grant-program">Grant program</a>
-          </li>
-          {% endif %} -->
-          
-          <!-- {% if page.active == "sponsorship" %}
-          <li class="nav-item">
-            <a class="active  href="{{site.baseurl}}/sponsorship">Sponsorship</a>
-          </li>
-          {% else %}
-          <li class="nav-item">
-            <a href="{{site.baseurl}}/sponsorship">Sponsorship</a>
-          </li>
-          {% endif %} -->
-        </ul>
-       <button id="toggle" aria-expanded="false" class="hamburger" role="button">
-           <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </button>
+      </ul>
+      <button id="toggle" aria-expanded="false" class="hamburger" role="button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+      </button>
     </nav>  
-
+    <a href="">
+      <div class="registration-button">Get tickets!</div>
+    </a>
 </header>
 
 <script>
