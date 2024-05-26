@@ -17,18 +17,18 @@ body {
 }
 
 h1 {
-  font-family: $display;
-  font-weight: 300;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   margin-top: 1.5em;
   margin-bottom: 1em;
   color: $color_one;
-  line-height: 3.4rem
+  line-height: 3.4rem;
+  font-weight: 400;
 
 }
 h2 {
-  font-weight: 300;
-  font-size: 1.75rem;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: $color_one;
 }
 
 h3 {
@@ -54,10 +54,10 @@ h4 {
 }
 
 a {
-  color: $color_three;
+  color: $color_four;
   text-decoration: none;
   &:visited {
-    color: $color_three;
+    color: $color_four;
   }
 }
 
@@ -116,11 +116,9 @@ a.navbar-brand {
 	);
 }
 header {
-	height: var(--header-outer-height);
+	height: var(--header-inner-height);
 	position: sticky;
-	top: calc(
-		var(--header-height-difference) * -1
-	); /* Multiply by -1 to get a negative value */
+	top: 0;
 	display: flex;
 	align-items: center;
   flex-shrink: 0;
@@ -194,6 +192,15 @@ header {
   transition: none;
 }
 
+.registration-button {
+  background: $color_three;
+  color: white;
+  padding: 5px 20px;
+  text-wrap: nowrap;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 .bar {
   display: block;
   width: 25px;
@@ -206,26 +213,59 @@ header {
 
 
 .parallax {
-  background-image: url("/assets/img/chris-king-unsplash.jpg");
+  background-image: url("/assets/img/chris-king-unsplash-2.png");
   min-height: 400px;
-  background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
   .credit {
     font-size: 0.6rem;
     display: flex;
     justify-content: end;
-    padding-right: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
   }
 }
 
-.photo-banner {
-  background-image: url("/assets/img/banner.png");
-  min-height: 200px;
+.conference {
+  text-align: center;
+  position: absolute;
+  color: white;
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto; 
+  width: 1000px;
+  max-width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: radial-gradient(rgba(0,0,0,.7) 15%, rgba(39,39,39,.5) 35%, transparent 70%);
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-repeat: repeat-x;
+  font-family: $display;
+  .hero-name {
+    font-size: 8rem;
+    line-height: 9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .hero-place {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+  }
+  .hero-date {
+    font-size: 2.0rem;
+    line-height: 4rem;
+    font-weight: 500;
+    letter-spacing: .5rem;
+  }
 }
 
 footer {
@@ -238,6 +278,28 @@ footer {
 
 //content
 
+.grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  &.grid-cols-2 {
+    grid-template-columns: auto 40%;
+  }
+  &.people-grid {
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    .person {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      img {
+        filter: grayscale(1);
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 .responsive-wrapper {
   width: 100%;
   margin-left: auto;
@@ -247,26 +309,40 @@ footer {
 
 main {
   margin: 0 auto;
+  img {
+    max-width: calc(100% - 12px);
+    border: 6px double $midgrey;
+    margin: 30px 0;
+  }
 }
 
 .main-content {
   margin-bottom: 2rem;
   padding: 0 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
 // home
-.intro {
-  font-size: 1.8rem;
-  padding: 50px 0;
-  margin: 0 auto; 
-  text-align: center;
-  line-height: 3rem;
+
+.home {
+  margin-top: 50px;
+}
+.news-box-wrapper {
+  border-top: 4px double $color_four;
+  border-bottom: 4px double $color-four;
   max-width: 1000px;
+  margin: 0 auto 50px;
+  .news-box {
+    padding: 20px 0 30px;
+    margin: 30px auto;
+    font-size: 1.2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+  }
 }
 
-// supporters
 
 .supporter-wrapper {
   a {
@@ -401,181 +477,131 @@ footer {
 
 // call for submission buttons
 
-.submit-button{
-    display: flex;
-    justify-content: space-around;
-}
+// .submit-button{
+//     display: flex;
+//     justify-content: space-around;
+// }
 
 // submission forms
 
-.details-submission {
-    border: 1px solid $white;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-  	background-color: $white;
-}
+// .details-submission {
+//     border: 1px solid $white;
+//     border-radius: 4px;
+//     padding: .5em .5em 0;
+//   	background-color: $white;
+// }
 
-.summary-submission {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-  	color: $color_three;
-}
+// .summary-submission {
+//     font-weight: bold;
+//     margin: -.5em -.5em 0;
+//     padding: .5em;
+//   	color: $color_three;
+// }
 
-.details-submission[open] {
-    padding: .5em;
-}
+// .details-submission[open] {
+//     padding: .5em;
+// }
 
-.details-submission[open] summary-submission {
-    border-bottom: 1px solid $white;
-    margin-bottom: .5em;
-}
+// .details-submission[open] summary-submission {
+//     border-bottom: 1px solid $white;
+//     margin-bottom: .5em;
+// }
 
 // keynotes
 
-.keynote-flex-container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.keynote-flex-inner-container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.keynote-flex-item-left {
-    padding: 10px;
-    flex: 50%;
-}
-    
-.keynote-flex-item-right {
-    padding: 10px;
-    flex: 50%;
-}
-
-.keynote-img {
-    border-radius: 50%;
-    min-width: 150px;
-    max-width: 150px;
-    min-width: 150px;
-    max-width: 150px;
-}
-
-.keynote-flex-container-mobile {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
- 
-.keynote-flex-inner-container-mobile {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
-
-.presentation {
-  margin-bottom: 50px;
-  .speaker {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-  .title {
-    margin-bottom: 10px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-}
-
-// Schedule Table
-table {
-    border-collapse: collapse;
-    width: 75%;
-  }
-
-td, th {
-    border-top: 1px solid #f9f9f9;
-    border-bottom: 1px solid #f9f9f9;
-    border-collapse: collapse;
-    text-align: left;
-    padding: 8px;
-  }
-
-// th:first-child {
-//     color: $charcoal;
-//     background: rgba(200, 76, 9, 0.5);
+// .keynote-flex-container {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
 // }
 
-.table-header {
-    color: $charcoal;
-    background: rgba(200, 76, 9, 1); 
-}
+// .keynote-flex-inner-container {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+// }
 
-.agenda-item {
-    background: rgba(200, 76, 9, 0.5); 
-}
+// .keynote-flex-item-left {
+//     padding: 10px;
+//     flex: 50%;
+// }
+    
+// .keynote-flex-item-right {
+//     padding: 10px;
+//     flex: 50%;
+// }
 
-.refreshments {
-    color: $charcoal;
-    background: rgba(200, 76, 9, 0.5); 
-}
+// .keynote-img {
+//     border-radius: 50%;
+//     min-width: 150px;
+//     max-width: 150px;
+//     min-width: 150px;
+//     max-width: 150px;
+// }
 
-.talk-content {
-    font-size:  12px;
-}
+// .keynote-flex-container-mobile {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+// }
+ 
+// .keynote-flex-inner-container-mobile {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+// }
+
+// .presentation {
+//   margin-bottom: 50px;
+//   .speaker {
+//     font-size: 1.1rem;
+//     margin-bottom: 10px;
+//   }
+//   .title {
+//     margin-bottom: 10px;
+//     font-size: 1.4rem;
+//     font-weight: bold;
+//     margin-bottom: 10px;
+//   }
+// }
+
+// Schedule Table
+// table {
+//     border-collapse: collapse;
+//     width: 75%;
+//   }
+
+// td, th {
+//     border-top: 1px solid #f9f9f9;
+//     border-bottom: 1px solid #f9f9f9;
+//     border-collapse: collapse;
+//     text-align: left;
+//     padding: 8px;
+//   }
+
+
+// .table-header {
+//     color: $charcoal;
+//     background: rgba(200, 76, 9, 1); 
+// }
+
+// .agenda-item {
+//     background: rgba(200, 76, 9, 0.5); 
+// }
+
+// .refreshments {
+//     color: $charcoal;
+//     background: rgba(200, 76, 9, 0.5); 
+// }
+
+// .talk-content {
+//     font-size:  12px;
+// }
 
 #signup-wrapper {
   margin-top: 40px;
   background-color: $color_two;
-}
-
-#signup {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-}
-
-#signup h4 {
-margin-bottom: 10px;
-color: #fff;
-font-weight: 400;;
-}
-
-#mc_embed_signup {
-  margin: 0 auto;
-}
-
-#mc_embed_signup .mc-field-group {
-  font-size: 0.8rem;
-  margin: 0 auto;
-}
-
-
-#mc_embed_signup form {
-  margin: 0;
-  color: #fff;
-
-}
-
-#mc_embed_signup .foot {
-  display: flex;
-  justify-content: center;
-}
-
-#mc_embed_signup .button {
-  background-color: $color_three;
-}
-
-
-#mc_embed_signup .mc-field-group {
-  padding-bottom: 10px;
-}
-
-#mc_embed_signup #mce-success-response {
-  color: $color_three;
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -598,6 +624,25 @@ font-weight: 400;;
     }
     &.other {
       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .parallax {
+    min-height: 300px;
+  }
+  .conference {
+    min-height: 300px;
+    .hero-name {
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+    .hero-place {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+    .hero-date {
+      font-size: 2.0rem;
+      line-height: 4rem;
     }
   }
 

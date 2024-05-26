@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Call for presentations
-active: presentations
+title: Program
+active: program
 description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal.
 ---
+
+## Call for presentations
 
 **We have not yet issued our call for presentations (check back soon to see our timeline).**
 
@@ -14,7 +16,7 @@ For those of you who can't wait, here's a guide on what we will be looking for.
 
 We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, experienced FOSS4G practitioners and curious newcomers.
 
-<!-- ## How to submit a proposal?
+<!-- ### How to submit a proposal?
 
 Please use the buttons below to apply and be ready to provide the following information:
 
@@ -48,7 +50,7 @@ Please use the buttons below to apply and be ready to provide the following info
     </div>
 </details> -->
 
-<!-- ## Key Dates
+<!-- ### Key Dates
 
 * **6 September:** Call for presentations and workshops opens.
 * **5 October:** Deadline for presentation and workshop proposal submissions.
@@ -56,7 +58,7 @@ Please use the buttons below to apply and be ready to provide the following info
 * **12-21 October:** Presentation selection and confirmation with speakers.
 * **21 October:** Speakers announced. -->
 
-## What are we looking for?
+### What are we looking for?
 
 This is a face-to-face conference with one day of presentations. There are many presentation slots available.
 
@@ -65,7 +67,7 @@ This is a face-to-face conference with one day of presentations. There are many 
     {% include_relative read_more/looking_for.html %}
 </details>
 
-## Who should submit?
+### Who should submit?
 
 You may be an experienced presenter, or perhaps this is the first time you've ever considered presenting at a conference. If you have a relevant story to tell, we want to hear from you.
 
@@ -74,6 +76,6 @@ You may be an experienced presenter, or perhaps this is the first time you've ev
     {% include_relative read_more/submit_who.html %}
 </details>
 
-## Facilities
+### Facilities
 
 Presenters will have access to a projection screen and microphone.

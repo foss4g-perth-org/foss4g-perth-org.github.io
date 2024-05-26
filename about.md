@@ -5,15 +5,58 @@ active: about
 description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal.
 ---
 
-FOSS4G Perth is a local, community-driven gathering of the Perth open geospatial community, focused on sharing stories and having fun with "Free and Open Source Software For Geospatial".
+<div>
+  <p>FOSS4G stands for "Free and Open Source Software for Geospatial." <a href="https://www.osgeo.org/initiatives/foss4g/" target="_blank">FOSS4G events</a> are part of a global conference series focused on open source geospatial software, overseen by the <a href="https://www.osgeo.org/" target="_blank">Open Source Geospatial Foundation (OSGeo)</a>. The events bring together developers, users, decision-makers, and observers from a broad spectrum of organisations and fields interested in these technologies.</p>
 
-Free software is revolutionising how we work and play, and the geospatial community is embracing open source tools and data with gusto. Prime examples include QGIS, PostGIS, OpenStreetMap, Sentinel-2 satellite imagery, Python-based earth observation libraries and frameworks, GDAL, and many others.
+<p>The FOSS4G Perth community has been active in the FOSS4G space over the last several years, with local events held in 2020 and 2021.</p>
 
-The Perth community has been active in this space over the last several years. FOSS4G events are run independently by local, regional, and global community groups all over the world.
+  <p></p>
+</div>
 
-<a href="#footer">Get involved!</a>
+<div class="grid grid-cols-2">
 
-## 2024 FOSS4G Perth Organising Committee
+  <div>
+    <h2>Key dates</h2>
+    <div>
+      <ul>
+        <!-- <li>: Registration opens</li> -->
+        <li>1 July 2024: Call for presentations opens</li>
+        <li>21 August 2024: Call for presentations closes</li>
+        <!-- <li>: Community voting on presentations opens</li>
+        <li>: Community voting on presentations closes</li> -->
+        <li>25 September 2024: Full program released</li>
+        <li>23 October 2024: FOSS4G Perth</li>
+      </ul>
+    </div>
+  </div>
+    <div>
+    <img src="/assets/img/foss_talk.webp" alt="People presenting" />
+  </div>
+</div>
+
+
+## FOSS4G Perth 2024 Organising Committee
+<div class="grid people-grid">
 {% for person in site.data.committee %}
-  <div><span class="bold">{{ person.name }}</span> {% if person.affiliation %}- <span class="text-sm">{{ person.affiliation}}</span>{% endif %}</div>
+  <div class="person">
+    {% if person.img %}
+    <img src="/assets/img/committee/{{person.img}}" alt="{{ person.name }}"/>
+    {% else %}
+    <img src="/assets/img/committee/default.png" alt="FOSS4G logo"/>
+    {% endif %}
+    <div>
+      <div class="bold">{{ person.name }}</div>
+      {% if person.affiliation %}
+        <div class="text-sm">{{ person.affiliation}}</div>
+      {% endif %}
+    </div>
+  </div>
 {% endfor %}
+</div>
+
+<!-- ## FOSS4G Perth 2024 Volunteers
+<div>
+{% for person in site.data.volunteers %}
+   {{ person.name }}<span>,</span>
+{% endfor %}
+</div> -->
