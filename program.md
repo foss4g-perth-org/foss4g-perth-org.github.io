@@ -78,4 +78,4 @@ You may be an experienced presenter, or perhaps this is the first time you've ev
 
 ### Facilities
 
-Presenters will have access to a projection screen and microphone. 
+Presenters will have access to a projection screen and microphone.
