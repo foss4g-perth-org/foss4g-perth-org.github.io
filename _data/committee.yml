@@ -1,17 +1,22 @@
-- name: Bryan Boruff
-  affiliation: University of Western Australia
-- name: Cholena Smart
-  affiliation: Mammoth Geospatial
-- name: Grant Boxer
-  affiliation: Consultant Geologist
-- name: Ivana Ivanova
-  affiliation: Curtin University
 - name: John Bryant (Chair)
   affiliation: Mammoth Geospatial
+  img: john_b.jpg
+- name: Bryan Boruff
+  affiliation: UWA
+- name: Cholena Smart
+  affiliation: Mammoth Geospatial
+  img: cholena.jpg
+- name: Grant Boxer
+  affiliation: Consultant Geologist
+  img: grant.jpg
+- name: Ivana Ivanova
+  affiliation: Curtin University
 - name: John Duncan
-  affiliation: University of Western Australia
+  affiliation: UWA
 - name: John Lang
   affiliation: Consultant
+- name: John Reid
+  affiliation:
 - name: Keith Moss
   affiliation: WA Government
 - name: Michel Nzikou
@@ -24,9 +29,11 @@
   affiliation: Gaia Resources
 - name: Renee Manser
   affiliation: 
-- name: Stafford Smith
-  affiliation: 
 - name: Tracey Cousens
-  affiliation: Mineral Resources Limited
+  affiliation:
+  img: tracey.jpg
+- name: Stafford Smith
+  affiliation:
+  img: staf.jpg
 - name: Vincent Dinh
   affiliation: GIS Pro

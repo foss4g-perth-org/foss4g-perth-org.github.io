@@ -27,7 +27,7 @@ h1 {
 }
 h2 {
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: $color_one;
 }
 
@@ -242,7 +242,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: radial-gradient(rgba(37,26,24,.7) 15%, rgba(37,26,24, .6) 35%, transparent 70%);
+  background-image: radial-gradient(rgba(0,0,0,.7) 15%, rgba(39,39,39,.5) 35%, transparent 70%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -277,6 +277,28 @@ footer {
 
 //content
 
+.grid {
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+  &.grid-cols-2 {
+    grid-template-columns: auto 40%;
+  }
+  &.people-grid {
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+    .person {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      img {
+        filter: grayscale(1);
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
 .responsive-wrapper {
   width: 100%;
   margin-left: auto;
@@ -287,7 +309,7 @@ footer {
 main {
   margin: 0 auto;
   img {
-    max-width: 100%;
+    max-width: calc(100% - 12px);
     border: 6px double $midgrey;
     margin: 30px 0;
   }
@@ -301,11 +323,15 @@ main {
 }
 
 // home
+
+.home {
+  margin-top: 50px;
+}
 .news-box-wrapper {
   border-top: 4px double $color_four;
   border-bottom: 4px double $color-four;
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 0 auto 50px;
   .news-box {
     padding: 20px 0 30px;
     margin: 30px auto;
@@ -450,126 +476,126 @@ footer {
 
 // call for submission buttons
 
-.submit-button{
-    display: flex;
-    justify-content: space-around;
-}
+// .submit-button{
+//     display: flex;
+//     justify-content: space-around;
+// }
 
 // submission forms
 
-.details-submission {
-    border: 1px solid $white;
-    border-radius: 4px;
-    padding: .5em .5em 0;
-  	background-color: $white;
-}
+// .details-submission {
+//     border: 1px solid $white;
+//     border-radius: 4px;
+//     padding: .5em .5em 0;
+//   	background-color: $white;
+// }
 
-.summary-submission {
-    font-weight: bold;
-    margin: -.5em -.5em 0;
-    padding: .5em;
-  	color: $color_three;
-}
+// .summary-submission {
+//     font-weight: bold;
+//     margin: -.5em -.5em 0;
+//     padding: .5em;
+//   	color: $color_three;
+// }
 
-.details-submission[open] {
-    padding: .5em;
-}
+// .details-submission[open] {
+//     padding: .5em;
+// }
 
-.details-submission[open] summary-submission {
-    border-bottom: 1px solid $white;
-    margin-bottom: .5em;
-}
+// .details-submission[open] summary-submission {
+//     border-bottom: 1px solid $white;
+//     margin-bottom: .5em;
+// }
 
 // keynotes
 
-.keynote-flex-container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
+// .keynote-flex-container {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+// }
 
-.keynote-flex-inner-container {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
+// .keynote-flex-inner-container {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+// }
 
-.keynote-flex-item-left {
-    padding: 10px;
-    flex: 50%;
-}
+// .keynote-flex-item-left {
+//     padding: 10px;
+//     flex: 50%;
+// }
     
-.keynote-flex-item-right {
-    padding: 10px;
-    flex: 50%;
-}
+// .keynote-flex-item-right {
+//     padding: 10px;
+//     flex: 50%;
+// }
 
-.keynote-img {
-    border-radius: 50%;
-    min-width: 150px;
-    max-width: 150px;
-    min-width: 150px;
-    max-width: 150px;
-}
+// .keynote-img {
+//     border-radius: 50%;
+//     min-width: 150px;
+//     max-width: 150px;
+//     min-width: 150px;
+//     max-width: 150px;
+// }
 
-.keynote-flex-container-mobile {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
+// .keynote-flex-container-mobile {
+//     display: flex;
+//     flex-direction: column;
+//     text-align: center;
+// }
  
-.keynote-flex-inner-container-mobile {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
+// .keynote-flex-inner-container-mobile {
+//     display: flex;
+//     flex-direction: row;
+//     text-align: center;
+// }
 
-.presentation {
-  margin-bottom: 50px;
-  .speaker {
-    font-size: 1.1rem;
-    margin-bottom: 10px;
-  }
-  .title {
-    margin-bottom: 10px;
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-}
+// .presentation {
+//   margin-bottom: 50px;
+//   .speaker {
+//     font-size: 1.1rem;
+//     margin-bottom: 10px;
+//   }
+//   .title {
+//     margin-bottom: 10px;
+//     font-size: 1.4rem;
+//     font-weight: bold;
+//     margin-bottom: 10px;
+//   }
+// }
 
 // Schedule Table
-table {
-    border-collapse: collapse;
-    width: 75%;
-  }
+// table {
+//     border-collapse: collapse;
+//     width: 75%;
+//   }
 
-td, th {
-    border-top: 1px solid #f9f9f9;
-    border-bottom: 1px solid #f9f9f9;
-    border-collapse: collapse;
-    text-align: left;
-    padding: 8px;
-  }
+// td, th {
+//     border-top: 1px solid #f9f9f9;
+//     border-bottom: 1px solid #f9f9f9;
+//     border-collapse: collapse;
+//     text-align: left;
+//     padding: 8px;
+//   }
 
 
-.table-header {
-    color: $charcoal;
-    background: rgba(200, 76, 9, 1); 
-}
+// .table-header {
+//     color: $charcoal;
+//     background: rgba(200, 76, 9, 1); 
+// }
 
-.agenda-item {
-    background: rgba(200, 76, 9, 0.5); 
-}
+// .agenda-item {
+//     background: rgba(200, 76, 9, 0.5); 
+// }
 
-.refreshments {
-    color: $charcoal;
-    background: rgba(200, 76, 9, 0.5); 
-}
+// .refreshments {
+//     color: $charcoal;
+//     background: rgba(200, 76, 9, 0.5); 
+// }
 
-.talk-content {
-    font-size:  12px;
-}
+// .talk-content {
+//     font-size:  12px;
+// }
 
 #signup-wrapper {
   margin-top: 40px;
