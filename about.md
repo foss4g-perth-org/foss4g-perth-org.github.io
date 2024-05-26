@@ -35,7 +35,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
 </div>
 
 
-## 2024 FOSS4G Perth Organising Committee
+## FOSS4G Perth 2024 Organising Committee
 <div class="grid people-grid">
 {% for person in site.data.committee %}
   <div class="person">
@@ -45,7 +45,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
     <img src="/assets/img/committee/default.png" alt="FOSS4G logo"/>
     {% endif %}
     <div>
-      <div class="bold">{{ person.name }}</div> 
+      <div class="bold">{{ person.name }}</div>
       {% if person.affiliation %}
         <div class="text-sm">{{ person.affiliation}}</div>
       {% endif %}
@@ -54,7 +54,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
 {% endfor %}
 </div>
 
-<!-- ## 2024 FOSS4G Perth Volunteers
+<!-- ## FOSS4G Perth 2024 Volunteers
 <div>
 {% for person in site.data.volunteers %}
    {{ person.name }}<span>,</span>
