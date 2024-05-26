@@ -238,6 +238,7 @@ header {
   margin-left: auto; 
   margin-right: auto; 
   width: 1000px;
+  max-width: 100%;
   min-height: 400px;
   display: flex;
   flex-direction: column;
@@ -600,53 +601,7 @@ footer {
 #signup-wrapper {
   margin-top: 40px;
   background-color: $color_two;
-}
-
-#signup {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 10px;
-  text-align: center;
-}
-
-#signup h4 {
-margin-bottom: 10px;
-color: #fff;
-font-weight: 400;;
-}
-
-#mc_embed_signup {
-  margin: 0 auto;
-}
-
-#mc_embed_signup .mc-field-group {
-  font-size: 0.8rem;
-  margin: 0 auto;
-}
-
-
-#mc_embed_signup form {
-  margin: 0;
-  color: #fff;
-
-}
-
-#mc_embed_signup .foot {
-  display: flex;
-  justify-content: center;
-}
-
-#mc_embed_signup .button {
-  background-color: $color_three;
-}
-
-
-#mc_embed_signup .mc-field-group {
-  padding-bottom: 10px;
-}
-
-#mc_embed_signup #mce-success-response {
-  color: $color_three;
+  padding: 10px 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -669,6 +624,25 @@ font-weight: 400;;
     }
     &.other {
       grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .parallax {
+    min-height: 300px;
+  }
+  .conference {
+    min-height: 300px;
+    .hero-name {
+      font-size: 5rem;
+      line-height: 6rem;
+    }
+    .hero-place {
+      font-size: 1.2rem;
+      line-height: 2rem;
+    }
+    .hero-date {
+      font-size: 2.0rem;
+      line-height: 4rem;
     }
   }
 
