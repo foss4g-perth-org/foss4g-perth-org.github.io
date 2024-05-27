@@ -18,7 +18,7 @@ id: home
       <div>
         <p>FOSS4G Perth is a local, community-driven gathering of the Perth open geospatial community, focused on sharing stories and having fun with "Free and Open Source Software For Geospatial". Whether you're a seasoned open geospatial enthusiast, a recent convert, or simply curious, we'd love to see you there!</p>
         <p>Join us for another exciting event to share ideas on our favourite open source tools, including QGIS, PostGIS, OpenStreetMap, Sentinel-2 satellite imagery, Python-based earth observation libraries and frameworks, GDAL, and many others. We aim to promote collaboration, innovation, and the exchange of ideas within the open source geospatial community.</p>
-        <img src="/assets/img/FOSS4G-SotM-2021b_smaller.jpg" alt="Perth FOSS4G community members"/>
+        <img src="/assets/img/FOSS4G-SotM-2021b_smaller.webp" alt="Perth FOSS4G community members"/>
         <p>This year, we have joined forces with the <span class="bold">ISPRS Technical Commission IV Symposium</span> to bring people together in a relaxed and fun environment, to connect with each other and with experts from the global ISPRS community.
         </p>
       </div>
