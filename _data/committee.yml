@@ -1,39 +1,50 @@
 - name: John Bryant (Chair)
   affiliation: Mammoth Geospatial
-  img: john_b.jpg
+  img: john-bryant.jpeg
 - name: Bryan Boruff
   affiliation: UWA
+  img: bryan-boruff.jpeg
 - name: Cholena Smart
   affiliation: Mammoth Geospatial
-  img: cholena.jpg
+  img: cholena-smart.jpeg
 - name: Grant Boxer
   affiliation: Consultant Geologist
-  img: grant.jpg
+  img: grant-boxer.jpeg
 - name: Ivana Ivanova
   affiliation: Curtin University
+  img: ivana-ivanova.jpeg
 - name: John Duncan
   affiliation: UWA
+  img: john-duncan.jpeg
 - name: John Lang
   affiliation: Consultant
+  img: john-lang.jpeg
 - name: John Reid
   affiliation:
 - name: Keith Moss
   affiliation: WA Government
+  img: keith-moss.jpeg
 - name: Michel Nzikou
   affiliation: DMN Solutions
+  img: michel-nzikou.jpeg
 - name: Nimalika Fernando
-  affiliation: 
+  affiliation:
+  img: nimalika-fernando.jpeg
 - name: Petra Helmholz
   affiliation: Curtin University
+  img: petra-helmholz.jpeg
 - name: Piers Higgs
   affiliation: Gaia Resources
-- name: Renee Manser
-  affiliation: 
+  img: piers-higgs.jpeg
+- name: Renee Malacari
+  affiliation:
+  img: renee-malacari.jpeg
 - name: Tracey Cousens
   affiliation:
-  img: tracey.jpg
+  img: tracey-cousens.jpeg
 - name: Stafford Smith
   affiliation:
-  img: staf.jpg
+  img: stafford-smith.jpeg
 - name: Vincent Dinh
   affiliation: GIS Pro
+  img: vincent-dinh.jpeg
