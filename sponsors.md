@@ -9,4 +9,4 @@ FOSS4G Perth is a full day event dedicated to the exploration, promotion, and ex
 
 We'd like to invite you to take this opportunity to become a financial sponsor for the FOSS4G Perth conference in Fremantle, WA in 2024. As a sponsor, you'll receive prominent exposure, allowing you to demonstrate your company's work and values. In addition, you'll be extending your support to the whole open source geospatial community.
 
-For more information, contact us at <a href="mailto:foss4gperth@gmail.com">foss4gperth@gmail.com</a>.
+For more information, contact us at <a href="mailto:admin@foss4g-perth.org">admin@foss4g-perth.org</a>.
