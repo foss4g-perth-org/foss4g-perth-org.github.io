@@ -2,65 +2,31 @@
 layout: page
 title: Program
 active: program
-description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal.
+description: We are inviting the Western Australian open geospatial and mapping community to get involved by submitting a presentation.
 ---
 
-## Call for presentations
+## Call for Presentations
 
-**We have not yet issued our call for presentations (check back soon to see our timeline).**
+We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a presentation. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, experienced FOSS4G practitioners and curious newcomers.
 
-For those of you who can't wait, here's a guide on what we will be looking for.
+**Stay tuned! Our Call for Presentations opens on 1 July.**
 
-- full-length talks (15 minutes)
-- lightning talks (5 minutes)
-
-We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a proposal. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, experienced FOSS4G practitioners and curious newcomers.
-
-<!-- ### How to submit a proposal?
-
-Please use the buttons below to apply and be ready to provide the following information:
-
-- What type of presentation or workshop are you proposing?
-- What is the title of your presentation/workshop?
-- Give a concise description of your proposed presentation/workshop.
-- Let us know if you have any specific requirements for delivering your presentation/workshop.
-
-**Submissions must be received no later than 11:59 PM (AWST), 5 October 2021.**
-
-<div class="submit-button">
+<!-- <div class="submit-button">
     <div class="button_wrapper center">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdE3TOQr_VoQRZDxIP9kWNa_2YQ-bbyPyN3oPiyi4BoAVnAaw/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Presentation proposals</a>
-      </div>
-    <div class="button_wrapper center">
-    <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Workshop proposals</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOe9lRcGNbMeL8Zu-lP0Ls-JVWghQYErXy-1ttJ_79KHgktQ/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Submit a presentation</a>
     </div>
-</div>
+</div> -->
 
-<details class="details-submission">
-    <summary class="summary-submission">Submission form: presentation proposals</summary>
-    <div class="content-submission">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdE3TOQr_VoQRZDxIP9kWNa_2YQ-bbyPyN3oPiyi4BoAVnAaw/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-</details>
+### Key Dates
 
-<details class="details-submission">
-    <summary class="summary-submission">Submission form: workshop proposals</summary>
-    <div class="content-submission">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5mfXhxbSUP_yJ68OQmgXSV6DRRHwQfaEb_Y96U3Z5OrnpUw/viewform?embedded=true" width="100%" height="400px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-    </div>
-</details> -->
-
-<!-- ### Key Dates
-
-* **6 September:** Call for presentations and workshops opens.
-* **5 October:** Deadline for presentation and workshop proposal submissions.
-* **5-12 October:** Community vote.
-* **12-21 October:** Presentation selection and confirmation with speakers.
-* **21 October:** Speakers announced. -->
+* **1 July:** Call for Presentations opens
+* **21 August:** Call for Presentations closes
+* **22-28 August:** Community vote on presentations
+* **25 September:** Full program released
 
 ### What are we looking for?
 
-This is a face-to-face conference with one day of presentations. There are many presentation slots available.
+We're after full-length talks (15 minutes) and lightning talks (5 minutes).
 
 <details>
     <summary>Read more...</summary>
@@ -79,3 +45,5 @@ You may be an experienced presenter, or perhaps this is the first time you've ev
 ### Facilities
 
 Presenters will have access to a projection screen and microphone.
+
+**Submissions must be received no later than 11:59 PM (AWST), 21 August 2024.**

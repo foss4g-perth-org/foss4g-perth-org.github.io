@@ -28,7 +28,7 @@ id: home
     </div>
     <h3>About OSGeo Oceania</h3>
     <div>
-      Our conference partner, <a href="https://osgeo-oceania.org/" target="_blank">OSGeo Oceania</a>, is a regional not-for-profit actively supporting the open geospatial community, and is the Oceania local chapter of <a href="https://osgeo.org/" target="_blank">OSGeo</a> and the <a href="https://osmfoundation.org/" target="_blank">OpenStreetMap Foundation</a>. OO runs the annual <a href="https://foss4g-oceania.org/" target="_blank">FOSS4G SotM Oceania</a> conference, which will be held in Hobart in November 2024.
+      Our conference partner, <a href="https://osgeo-oceania.org/" target="_blank">OSGeo Oceania</a>, is a regional not-for-profit actively supporting the open geospatial community, and is the Oceania local chapter of <a href="https://osgeo.org/" target="_blank">OSGeo</a> and the <a href="https://osmfoundation.org/" target="_blank">OpenStreetMap Foundation</a>. OSGeo Oceania runs the annual <a href="https://foss4g-oceania.org/" target="_blank">FOSS4G SotM Oceania</a> conference, which will be held in Hobart in November 2024.
     </div>
   </div>
 </div>
