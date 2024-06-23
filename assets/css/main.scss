@@ -594,6 +594,25 @@ footer {
   padding: 10px 0;
 }
 
+#partners-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 10px 0;
+}
+
+#partners {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 1rem;
+  .partner-logo {
+    display: flex;
+  }
+}
+
 @media screen and (max-width: 768px) {
   h1 {
     font-size: 2.2rem;
