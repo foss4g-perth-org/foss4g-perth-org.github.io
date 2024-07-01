@@ -9,13 +9,13 @@ description: We are inviting the Western Australian open geospatial and mapping 
 
 We're inviting the Western Australian open geospatial and mapping community to get involved by submitting a presentation. Gather up your stories, hits and misses, and share with us - we’re dying to hear what you’ve been working on! There are opportunities for first-time speakers, experienced FOSS4G practitioners and curious newcomers.
 
-**Stay tuned! Our Call for Presentations opens on 1 July.**
+<!-- **Stay tuned! Our Call for Presentations opens on 1 July.** -->
 
-<!-- <div class="submit-button">
+<div class="submit-button">
     <div class="button_wrapper center">
         <a href="https://docs.google.com/forms/d/e/1FAIpQLSdOe9lRcGNbMeL8Zu-lP0Ls-JVWghQYErXy-1ttJ_79KHgktQ/viewform?usp=sf_link" class="btn" target="_blank" rel="noreferrer">Submit a presentation</a>
     </div>
-</div> -->
+</div>
 
 ### Key Dates
 
