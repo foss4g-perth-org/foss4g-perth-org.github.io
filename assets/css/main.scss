@@ -31,7 +31,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -58,6 +58,10 @@ a {
   &:visited {
     color: $color_four;
   }
+}
+
+li {
+  padding-bottom: 10px;
 }
 
 .button_wrapper {
@@ -281,9 +285,14 @@ footer {
 .grid {
   display: grid;
   gap: 2rem;
-  align-items: center;
+  // align-items: center;
   &.grid-cols-2 {
-    grid-template-columns: auto 40%;
+    &.img-right {
+      grid-template-columns: auto 40%;
+    }
+    &.img-left {
+      grid-template-columns: 40% auto;
+    }
   }
   &.people-grid {
     grid-template-columns: repeat(5, 1fr);
@@ -465,37 +474,29 @@ footer {
   }
 }
 
-// call for submission buttons
+#sponsor-package {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  td, th {
+    border: 1px solid #ddd;
+    padding: 4px 16px 4px 8px;
+  }
+  
+  tr:nth-child(odd){background-color: #f0f0f0;}
+    
+  th {
+    text-align: left;
+    color: $color_two;
+    background-color: white;
+  }
+}
 
-// .submit-button{
-//     display: flex;
-//     justify-content: space-around;
-// }
+.table-sub {
+  font-size: 0.9rem;
+  font-style: italic;
+}
 
-// submission forms
-
-// .details-submission {
-//     border: 1px solid $white;
-//     border-radius: 4px;
-//     padding: .5em .5em 0;
-//   	background-color: $white;
-// }
-
-// .summary-submission {
-//     font-weight: bold;
-//     margin: -.5em -.5em 0;
-//     padding: .5em;
-//   	color: $color_three;
-// }
-
-// .details-submission[open] {
-//     padding: .5em;
-// }
-
-// .details-submission[open] summary-submission {
-//     border-bottom: 1px solid $white;
-//     margin-bottom: .5em;
-// }
 
 // keynotes
 
@@ -572,16 +573,16 @@ footer {
 
 // .table-header {
 //     color: $charcoal;
-//     background: rgba(200, 76, 9, 1);
+//     background: $color_two;
 // }
 
 // .agenda-item {
-//     background: rgba(200, 76, 9, 0.5);
+//     background: $color_two;
 // }
 
 // .refreshments {
 //     color: $charcoal;
-//     background: rgba(200, 76, 9, 0.5);
+//     background: $color_two;
 // }
 
 // .talk-content {
@@ -663,6 +664,10 @@ footer {
 
   .grid {
     &.grid-cols-2 {
+      grid-template-columns: 1fr;
+    }
+    &.grid-cols-2.img-right,
+    &.grid-cols-2.img-left {
       grid-template-columns: 1fr;
     }
     &.people-grid {

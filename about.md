@@ -13,8 +13,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
   <p></p>
 </div>
 
-<div class="grid grid-cols-2">
-
+<div class="grid grid-cols-2 img-right">
   <div>
     <h2>Key dates</h2>
     <div>
