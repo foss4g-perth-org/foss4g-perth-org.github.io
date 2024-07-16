@@ -112,3 +112,9 @@ We have the following sponsorship packages available.
 ## Sign me up!
 
 To become a sponsor, please contact us at <a href="mailto:sponsor@foss4g-perth.org">sponsor@foss4g-perth.org</a>. <br>If you don’t find a sponsor package that meets your needs, please contact us to discuss other options.
+
+<div class="submit-button">
+    <div class="button_wrapper center">
+        <a href="/assets/docs/FOSS4G_Perth_2024_Sponsorship_Prospectus.pdf" class="btn" download>Download Sponsorship Prospectus</a>
+    </div>
+</div>
