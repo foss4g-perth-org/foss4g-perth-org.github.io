@@ -78,8 +78,8 @@ Participants are asked to bring a laptop with a recent version of QGIS, and a mo
 
 In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.html" target="_blank" rel="noreferrer">ISPRS</a>, FOSS4G Perth is hosting two keynote speakers. 
 
-<strong>Hidenori Fujimura</strong>: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">UN Smart Maps: An Open Initiative for Data Fusion</a>.
+**Hidenori Fujimura**: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">UN Smart Maps: An Open Initiative for Data Fusion</a>.
 
-<strong>Ahi Saipaia</strong>: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">From paddock to polygon: co-development of open-source geospatial applications and workflows for mapping diverse cropping systems in the Pacific</a>.
+**Ahi Saipaia**: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">From paddock to polygon: co-development of open-source geospatial applications and workflows for mapping diverse cropping systems in the Pacific</a>.
 
 More information on the conference schedule will be provided after the full program is released.
