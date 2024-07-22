@@ -82,4 +82,6 @@ In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.htm
 
 **Ahi Saipaia**: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">From paddock to polygon: co-development of open-source geospatial applications and workflows for mapping diverse cropping systems in the Pacific</a>.
 
+### Main Program
+
 More information on the conference schedule will be provided after the full program is released.
