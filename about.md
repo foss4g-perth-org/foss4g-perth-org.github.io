@@ -15,14 +15,15 @@ description: We are inviting the Western Australian open geospatial and mapping 
 
 <div class="grid grid-cols-2 img-right">
   <div>
-    <h2>Key dates</h2>
+    <h2>Key dates 2024</h2>
     <div>
       <ul>
-        <!-- <li>: Registration opens</li> -->
-        <li>1 July 2024: Call for Presentations opens</li>
-        <li>21 August 2024: Call for Presentations closes</li>
-        <li>25 September 2024: Full program released</li>
-        <li>23 October 2024: FOSS4G Perth - Event Day!</li>
+        <li>Early Bird registration: 22 July-10 August</li>
+        <li>Call for Presentations: 1 July-21 August</li>
+        <li>Standard registration: 11 August-4 October</li>
+        <li>Full program released: 25 September</li>
+        <li>Late registration: 5-21 October</li>
+        <li>FOSS4G Perth - Event Day! 23 October</li>
       </ul>
     </div>
   </div>
