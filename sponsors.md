@@ -5,13 +5,17 @@ active: sponsors
 description: Sponsor FOSS4G Perth 2024
 ---
 
+{% include sponsors.html %}
+
+## Become a sponsor
+
 We're pleased to share the opportunity to become a sponsor of FOSS4G Perth 2024! 
 
 FOSS4G Perth is a community-driven event for the Western Australian open geospatial community, dedicated to the exploration, promotion, and exchange of ideas around Free and Open Source for Geospatial (FOSS4G). FOSS4G events are part of a community-focused global movement, supported by OSGeo, with the objective of fostering and promoting the adoption of open source geospatial technology.
 
 This year, we're partnering with the ISPRS Technical Commission IV Symposium, a major international academic conference focused on advancing spatial information science, enabling spatial digital twins and empowering the metaverse.
 
-## What's planned?
+### What's planned?
 * A 1-day FOSS4G "mini-conference" open geospatial event featuring keynote addresses, full-length presentations, and lightning talks from our local open geospatial community
 * An evening social hosted by FOSS4G Perth for FOSS4G attendees and ISPRS delegates
 * Reciprocal access to events - ISPRS delegates can attend FOSS4G Perth, and vice versa
@@ -19,7 +23,7 @@ This year, we're partnering with the ISPRS Technical Commission IV Symposium, a 
 
 <div class="grid grid-cols-2 img-right">
   <div>
-  <h2>Why sponsor?</h2>
+  <h3>Why sponsor?</h3>
     <div>
         Sponsoring FOSS4G Perth aligns your brand with a positive, community-focused initiative and enhances visibility among local and international delegates. It offers access to potential future hires, opportunities to network and build relationships, and supports the free and open-source software community, with the added bonus of generating warm, fuzzy feelings from knowing you are making a positive difference.
     </div>
@@ -30,7 +34,7 @@ This year, we're partnering with the ISPRS Technical Commission IV Symposium, a 
 </div>
 
 
-## Who is attending?
+### Who is attending?
 
 Members of the FOSS4G Perth community come from a wide range of perspectives: small-to-medium business owners, contractors, government and academia, geology & mining professionals, the startup ecosystem, hobbyists, and more. Our partnership with ISPRS in 2024 also ensures we will reach a global academic community.
 
@@ -40,14 +44,14 @@ Members of the FOSS4G Perth community come from a wide range of perspectives: sm
 
 We expect an audience of 100-150 participants at FOSS4G Perth, and an additional 300 at the ISPRS Technical Commission IV Symposium.
 
-### Audience profile:
+### Audience profile
 * **Government and companies** - representatives from public and private sectors seeking modern geospatial technologies to enhance decision-making and operational efficiency.
 * **Developers, users and advocates of FOSS4G** - individuals and teams developing, using, and promoting open source geospatial software and technologies.
 * **Academics from the global community** - researchers engaged in advancing geospatial science and technology.
 * **Students** - graduate and undergraduate students poised to become the next generation of open geospatial professionals.
 
 
-## Sponsor packages
+### Sponsor packages
 
 We have the following sponsorship packages available. 
 
@@ -73,12 +77,6 @@ We have the following sponsorship packages available.
 					<td>20 words</td>
 					<td></td>
 				</tr>
-				<!-- <tr class=''>
-					<td>Logo on ISPRS website</td>
-					<td>&#10003;</td>
-					<td></td>
-					<td></td>
-				</tr> -->
 				<tr class=''>
 					<td>Recognition in promotional material *</td>
 					<td>&#10003;</td>

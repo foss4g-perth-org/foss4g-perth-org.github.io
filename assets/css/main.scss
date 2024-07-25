@@ -595,6 +595,54 @@ footer {
 //     font-size:  12px;
 // }
 
+
+// Sponsors
+#sponsors {
+  .sponsor-block {
+    margin-top: 40px;
+  }
+  img {
+    border:none;
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  #partner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+  }
+  #gold {
+    grid-template-columns: 200px auto;
+    align-items: center;
+    margin-bottom: 2rem;
+    img {
+      max-width: 150px;
+      max-height: 150px;
+    }
+  }
+  #silver {
+    grid-template-columns: 200px auto;
+    align-items: center;
+    margin-bottom: 2rem;
+    img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+  #bronze {
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-content: space-evenly;
+    img {
+      max-width: 100px;
+      max-height: 100px;
+    }
+  }
+}
+
 #signup-wrapper {
   margin-top: 40px;
   background-color: $color_two;
@@ -730,6 +778,35 @@ footer {
   .submit-button{
     display: block;
     margin: 0 auto;
+  }
+  // Sponsors
+  #sponsors {
+    .sponsor-block {
+      margin-top: 40px;
+    }
+    .img-wrapper {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      border:none;
+      max-width: 200px;
+      max-height: 200px;
+      margin: 0;
+    }
+    #partner {
+      display: block;
+    }
+    #gold {
+      display: block;
+    }
+    #silver {
+      display: block;
+    }
+    #bronze {
+      grid-template-columns: repeat(2, auto);
+      align-items: center;
+    }
   }
 
 }

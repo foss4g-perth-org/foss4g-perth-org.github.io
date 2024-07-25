@@ -1,0 +1,41 @@
+- name: ISPRS
+  tier: Partner
+  img: isprs_logo.jpg
+  link: https://www.isprs.org/tc4-symposium2024/
+- name: OSGeo Oceania
+  tier: Partner
+  img: osgeo-oceania.webp
+  link: https://osgeo-oceania.org/
+
+# - name: 
+#   tier: Gold
+#   img: 
+#   blurb: 
+#   link:
+
+# - name: Mammoth Geospatial
+#   tier: Silver
+#   img: mammoth.png
+#   blurb: 
+#   link: https://mammothgeospatial.com
+# - name: Expedio
+#   tier: Silver
+#   img: 
+#   blurb: 
+#   link:
+# - name: MNG
+#   tier: Silver
+#   img: 
+#   blurb: 
+#   link:
+# - name: Apeiron
+#   tier: Silver
+#   img: 
+#   blurb: 
+#   link:
+
+
+# - name: SCG
+#   tier: Bronze
+#   img: 
+#   link:
