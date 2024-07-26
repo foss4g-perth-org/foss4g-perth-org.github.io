@@ -598,47 +598,78 @@ footer {
 
 // Sponsors
 #sponsors {
+  margin-bottom: 4rem;
+  .sponsor {
+    border: 2px solid lighten($midgrey, 40%);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    .blurb {
+      font-size: 0.75rem;
+      line-height: 1rem;
+    }
+    a {
+      text-transform: uppercase;
+      font-size: 0.8rem;
+      color: $color-two;
+      font-weight: 600;
+      &:visited {
+        color: $color-two;
+      }
+    }
+    img {
+      border:none;
+      margin: 0;
+    }
+    .img-wrapper {
+      width: auto;
+      display: grid;
+      align-items: center;
+      justify-content: center;
+    }
+  }
   .sponsor-block {
-    margin-top: 40px;
-  }
-  img {
-    border:none;
-    max-width: 200px;
-    max-height: 200px;
-    margin: 0;
-  }
-  #partner {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-between;
+    grid-gap: 2rem;
   }
   #gold {
-    grid-template-columns: 200px auto;
-    align-items: center;
-    margin-bottom: 2rem;
+    grid-template-columns: 1fr 1fr;
     img {
-      max-width: 150px;
-      max-height: 150px;
+      max-height: 200px;
+      margin: 0 auto;
     }
   }
   #silver {
-    grid-template-columns: 200px auto;
-    align-items: center;
-    margin-bottom: 2rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    .img-wrapper {
+      height: 150px;
+      margin: 0 auto;
+    }
     img {
-      max-width: 100px;
-      max-height: 100px;
+      max-height: 80%;
+      margin: 0 auto;
     }
   }
   #bronze {
-    grid-template-columns: repeat(5, auto);
-    align-items: center;
-    justify-content: space-evenly;
+    grid-template-columns: repeat(6, 1fr);
+    .img-wrapper {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      img {
+        margin: 0 auto;
+      }
+    }
+    .sponsor {
+      border: none;
+    }
+  }
+  #partner {
+    grid-template-columns: 1fr 1fr;
     img {
-      max-width: 100px;
-      max-height: 100px;
+      max-height: 150px;
+      margin: 0 auto;
     }
   }
 }
@@ -782,30 +813,44 @@ footer {
   // Sponsors
   #sponsors {
     .sponsor-block {
-      margin-top: 40px;
-    }
-    .img-wrapper {
-      width: 100%;
-      text-align: center;
-    }
-    img {
-      border:none;
-      max-width: 200px;
-      max-height: 200px;
-      margin: 0;
+      margin-top: 10px;
+      gap: 1rem;
     }
     #partner {
-      display: block;
+      grid-template-columns: 1fr;
+      .img-wrapper {
+        height: 100px;
+        img {
+          max-height: 100px;
+        }
+      }
     }
     #gold {
-      display: block;
+      grid-template-columns: 1fr;
+      .img-wrapper {
+        height: 100px;
+        img {
+          max-height: 100px;
+        }
+      }
     }
     #silver {
-      display: block;
+      grid-template-columns: 1fr;
+      .img-wrapper {
+        height: 100px;
+        img {
+          max-height: 100px;
+        }
+      }
     }
     #bronze {
       grid-template-columns: repeat(2, auto);
-      align-items: center;
+      .img-wrapper {
+        height: 100px;
+        img {
+          max-height: 100px;
+        }
+      }
     }
   }
 

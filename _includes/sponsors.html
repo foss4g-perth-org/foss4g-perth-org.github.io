@@ -1,68 +1,75 @@
 <div id="sponsors">
 
-  <h3>Conference Partners</h3>
-  <div id="partner">
-
+  <!-- <h3>Gold</h3>
+  <div id="gold" class="sponsor-block">
     {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == 'Partner' %}
-    <div class="img-wrapper">
-      <a href="{{ sponsor.link }}" target="_blank">
-        <img src="/assets/img/partners/{{sponsor.img}}" alt="{{ sponsor.name }}" />
-      </a>
+    {% if sponsor.tier == 'Gold' %}
+    <div class="sponsor">
+      <div class="img-wrapper">
+        <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
+      </div>
+      <div>
+          <a href="{{ sponsor.link }}" target="_blank">
+            Website
+          </a>
+            <div class="blurb">
+            {{sponsor.blurb}}
+          </div>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div> -->
+
+  <h3>Silver</h3>
+  <div id="silver" class="sponsor-block">
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.tier == 'Silver' %}
+    <div class="sponsor">
+      <div class="img-wrapper">
+        <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
+      </div>
+      <div>
+          <a href="{{ sponsor.link }}" target="_blank">
+            Website
+          </a>
+            <div class="blurb">
+            {{sponsor.blurb}}
+          </div>
+        </div>
     </div>
     {% endif %}
     {% endfor %}
   </div>
 
-  <!-- <div class="sponsor-block">
-    <h3>Gold</h3>
+  <!-- <h3>Bronze</h3>
+  <div id="bronze" class="sponsor-block">
     {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == 'Gold' %}
-    <a href="{{ sponsor.link }}" target="_blank">
-      <div id="gold" class="grid">
-        <div class="img-wrapper">
-          <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
-        </div>
-        <div>
-          {{sponsor.blurb}}
-        </div>
+    {% if sponsor.tier == 'Bronze' %}
+    <div class="sponsor">
+      <a href="{{ sponsor.link }}" target="_blank">
+      <div class="img-wrapper">
+        <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
       </div>
-    </a>
-    {% endif %}
-    {% endfor %}
-  </div> -->
-
-  <!-- <div class="sponsor-block">
-    <h3>Silver</h3>
-    {% for sponsor in site.data.sponsors %}
-    {% if sponsor.tier == 'Silver' %}
-    <a href="{{ sponsor.link }}" target="_blank">
-      <div id="silver" class="grid">
-        <div class="img-wrapper">
-          <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
-        </div>
-        <div>
-          {{sponsor.blurb}}
-        </div>
-      </div>
-    </a>
-    {% endif %}
-    {% endfor %}
-  </div> -->
-
-  <!-- <div class="sponsor-block">
-    <h3>Bronze</h3>
-    <div id="bronze" class="grid">
-      {% for sponsor in site.data.sponsors %}
-      {% if sponsor.tier == 'Bronze' %}
-      <div>
-        <a href="{{ sponsor.link }}" target="_blank">
-          <img src="/assets/img/sponsor_logos/{{sponsor.img}}" alt="{{ sponsor.name }}" />
-        </a>
-      </div>
-      {% endif %}
-      {% endfor %}
+     </a>
     </div>
+    {% endif %}
+    {% endfor %}
   </div> -->
+
+  <h3>Conference Partners</h3>
+  <div id="partner" class="sponsor-block">
+    {% for sponsor in site.data.sponsors %}
+    {% if sponsor.tier == 'Partner' %}
+    <div class="sponsor">
+      <a href="{{ sponsor.link }}" target="_blank">
+      <div class="img-wrapper">
+        <img src="/assets/img/partners/{{sponsor.img}}" alt="{{ sponsor.name }}" />
+      </div>
+    </a>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
 
 </div>

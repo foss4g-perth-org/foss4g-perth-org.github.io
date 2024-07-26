@@ -13,11 +13,13 @@
 #   blurb: 
 #   link:
 
-# - name: Mammoth Geospatial
-#   tier: Silver
-#   img: mammoth.png
-#   blurb: 
-#   link: https://mammothgeospatial.com
+
+- name: Mammoth Geospatial
+  tier: Silver
+  img: mammoth.png
+  blurb: "Our mission: connect people with the power of free & open source geospatial. Fremantle-based, working on projects around the world."
+  link: https://mammothgeospatial.com
+
 # - name: Expedio
 #   tier: Silver
 #   img: 
@@ -39,3 +41,4 @@
 #   tier: Bronze
 #   img: 
 #   link:
+
