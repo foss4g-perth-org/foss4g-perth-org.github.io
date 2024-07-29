@@ -37,8 +37,7 @@
 #   link:
 
 
-# - name: SCG
-#   tier: Bronze
-#   img: 
-#   link:
-
+- name: Southern Geoscience Consultants
+  tier: Bronze
+  img: SGC.webp
+  link: https://sgc.com.au/
