@@ -19,18 +19,17 @@
   img: mammoth.png
   blurb: "Connecting people with the power of free & open source geospatial. We are Fremantle-based, working on projects around the world."
   link: https://mammothgeospatial.com
-
-# - name: Expedio
-#   tier: Silver
-#   img: 
-#   blurb: 
-#   link:
 # - name: MNG
 #   tier: Silver
-#   img: 
-#   blurb: 
-#   link:
+#   img: MNG.webp
+#   blurb: Inspiring and equipping new generations of talent to become the surveying pioneers of tomorrow.
+#   link: https://www.mngsurvey.com.au/
 # - name: Apeiron
+#   tier: Silver
+#   img: apeiron.png
+#   blurb: Born out of Oslandia's OpenLog consortium, Apeiron is an uplifting OSS development startup dedicated to Geology and Mining GIS applications.
+#   link: https://apeiron.technology/
+# - name: Expedio
 #   tier: Silver
 #   img: 
 #   blurb: 

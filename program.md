@@ -46,8 +46,8 @@ Presenters will have access to a projection screen and microphone.
 
 **Submissions must be received no later than 11:59 PM (AWST), 21 August 2024.**
 
-<div id="workshop"></div>
 <hr>
+<div id="workshop" class="anchor-offset"></div>
 
 ## Workshop: 22 October 2024 (am)
 

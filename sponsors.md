@@ -7,6 +7,8 @@ description: Sponsor FOSS4G Perth 2024
 
 {% include sponsors.html %}
 
+<div id="become-a-sponsor" class="anchor-offset"></div>
+
 ## Become a sponsor
 
 We're pleased to share the opportunity to become a sponsor of FOSS4G Perth 2024! 

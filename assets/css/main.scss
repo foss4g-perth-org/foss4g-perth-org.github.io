@@ -136,6 +136,12 @@ header {
   border-bottom: thin solid grey;
 }
 
+.anchor-offset {
+  position: relative;
+  top: calc(var(--header-inner-height) * -1);
+  visibility: hidden;
+}
+
 .navbar {
   height: var(--header-inner-height);
 	position: sticky;
