@@ -402,35 +402,6 @@ main {
   }
 }
 
-.sponsor-group {
-  a {
-    color: $charcoal;
-  }
-  .sponsors {
-    display: grid;
-    grid-template-columns: 200px 1fr;
-    grid-gap: 64px;
-    margin-bottom: 62px;
-    padding: 30px 30px 40px 30px;
-    border: thin solid white;;
-
-    &:hover {
-      box-shadow: 0 0 10px #e3e3e3;
-      border: thin solid $color_three;
-    }
-    h4 {
-      margin-top: 0;
-      margin-bottom: 1rem;
-    }
-    .image-wrapper {
-      align-self: center;
-    }
-    img {
-      width: 100%;
-    }
-
-  }
-}
 
 footer {
   background-color: $charcoal;
@@ -610,17 +581,12 @@ footer {
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
-    .blurb {
+    a .blurb {
+      color: $charcoal;
       font-size: 0.75rem;
       line-height: 1rem;
-    }
-    a {
-      text-transform: uppercase;
-      font-size: 0.8rem;
-      color: $color-two;
-      font-weight: 600;
       &:visited {
-        color: $color-two;
+        color: $charcoal;
       }
     }
     img {
@@ -634,7 +600,7 @@ footer {
       justify-content: center;
     }
   }
-  .sponsor-block {
+  .sponsor-wrapper {
     display: grid;
     grid-gap: 2rem;
   }
@@ -819,7 +785,7 @@ footer {
   }
   // Sponsors
   #sponsors {
-    .sponsor-block {
+    .sponsor-wrapper {
       margin-top: 10px;
       gap: 1rem;
     }
