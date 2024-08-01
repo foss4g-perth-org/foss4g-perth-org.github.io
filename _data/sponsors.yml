@@ -1,0 +1,42 @@
+- name: ISPRS
+  tier: Partner
+  img: isprs_logo.jpg
+  link: https://www.isprs.org/tc4-symposium2024/
+- name: OSGeo Oceania
+  tier: Partner
+  img: osgeo-oceania.webp
+  link: https://osgeo-oceania.org/
+
+# - name: 
+#   tier: Gold
+#   img: 
+#   blurb: 
+#   link:
+
+
+- name: Mammoth Geospatial
+  tier: Silver
+  img: mammoth.png
+  blurb: "Connecting people with the power of free & open source geospatial. We are Fremantle-based, working on projects around the world."
+  link: https://mammothgeospatial.com/
+- name: Expedio
+  tier: Silver
+  img: expedio.png
+  blurb: Celebrating 25 years in business and backed by an incredible depth of knowledge and extensive data science skills, Expedio provides intelligent data solutions to the resource and government sectors.
+  link: https://expedio.com.au/
+# - name: MNG
+#   tier: Silver
+#   img: MNG.webp
+#   blurb: Inspiring and equipping new generations of talent to become the surveying pioneers of tomorrow.
+#   link: https://www.mngsurvey.com.au/
+# - name: Apeiron
+#   tier: Silver
+#   img: apeiron.png
+#   blurb: Born out of Oslandia's OpenLog consortium, Apeiron is an uplifting OSS development startup dedicated to Geology and Mining GIS applications.
+#   link: https://apeiron.technology/
+
+
+- name: Southern Geoscience Consultants
+  tier: Bronze
+  img: SGC.webp
+  link: https://sgc.com.au/
