@@ -78,9 +78,24 @@ Participants are asked to bring a laptop with a recent version of QGIS, and a mo
 
 In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.html" target="_blank" rel="noreferrer">ISPRS</a>, FOSS4G Perth is hosting two keynote speakers:
 
-**Hidenori Fujimura**: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">UN Smart Maps: An Open Initiative for Data Fusion</a>.
-
-**Ahi Saipaia**: <a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">From paddock to polygon: co-development of open-source geospatial applications and workflows for mapping diverse cropping systems in the Pacific</a>.
+<div class="keynote-container">
+    <img src="/assets/img/program/karen-joyce.png" class="keynote-img" alt="karen-joyce">
+</div>
+<div>
+<h4>Karen Joyce</h4>
+<p>
+<a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">A biographer for Mother Earth, using satellites and drones as my scientific illustrators.</a> I share my experiences drawn from 25 years as a geospatial scientist in academia, military, industry, and small business to help people discover science beyond lab coats and test tubes. But I have an ulterior motive. I am passionate about how we can use drones and geospatial technology to watch over our environment and its changes. So the more people I can inspire to join me, the faster we can put plans in place to help keep our environment healthy into the future.
+</p>
+</div>
+<div class="keynote-container">
+    <img src="/assets/img/program/ahi-saipaia.png" class="keynote-img" alt="ahi-saipaia">
+</div>
+<div>
+<h4>Ahi Saipaia</h4>
+<p>
+<a href="https://www.isprs.org/tc4-symposium2024/speakers.html" target="_blank" rel="noreferrer">From paddock to polygon: co-development of open-source geospatial applications and workflows for mapping diverse cropping systems in the Pacific.</a> Ahi is the lead Technical Officer for the Ministry of Agriculture, Food, Forests and Fisheries (MAFFF), Tonga. Ahi was a technical expert on an Australian Centre for International Agricultural Research (ACIAR) funded project using open-source geospatial applications to map and monitor Tonga’s diverse agricultural landscapes. Since the project’s end, she has assumed a lead technical role with MAFFF overseeing multiple nation wide crop surveys and agricultural mapping initiatives, resulting in one of the South Pacific’s most detailed and temporally consistent agricultural datasets.
+</p>
+</div>
 
 ### Main Program
 
