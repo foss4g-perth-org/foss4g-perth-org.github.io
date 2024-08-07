@@ -491,16 +491,37 @@ footer {
 
 // keynotes
 
+.keynote-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.keynote-img {
+  border-radius: 50%;
+  min-width: 150px;
+  max-width: 150px;
+  min-width: 150px;
+  max-width: 150px;
+}
+
 // .keynote-flex-container {
 //     display: flex;
 //     flex-direction: row;
 //     text-align: center;
+//     justify-content: center;
+//     align-items: center;   
 // }
 
 // .keynote-flex-inner-container {
 //     display: flex;
 //     flex-direction: row;
 //     text-align: center;
+// }
+
+// .keynote-flex-item {
+//   padding: 10px;
+//   flex: 50%;
 // }
 
 // .keynote-flex-item-left {
