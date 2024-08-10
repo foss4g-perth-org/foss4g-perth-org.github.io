@@ -24,11 +24,11 @@
   img: expedio.png
   blurb: Celebrating 25 years in business and backed by an incredible depth of knowledge and extensive data science skills, Expedio provides intelligent data solutions to the resource and government sectors.
   link: https://expedio.com.au/
-# - name: MNG
-#   tier: Silver
-#   img: MNG.webp
-#   blurb: Inspiring and equipping new generations of talent to become the surveying pioneers of tomorrow.
-#   link: https://www.mngsurvey.com.au/
+- name: MNG
+  tier: Silver
+  img: MNG.webp
+  blurb: Inspiring and equipping new generations of talent to become the surveying pioneers of tomorrow.
+  link: https://www.mngsurvey.com.au/
 # - name: Apeiron
 #   tier: Silver
 #   img: apeiron.png
@@ -40,3 +40,7 @@
   tier: Bronze
   img: SGC.webp
   link: https://sgc.com.au/
+- name: Libertas Infinity
+  tier: Bronze
+  img: libertas.png
+  link: https://www.libertas8.com/
