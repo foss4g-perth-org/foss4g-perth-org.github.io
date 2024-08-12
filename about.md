@@ -28,7 +28,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
     </div>
   </div>
     <div>
-    <img src="/assets/img/foss_talk.webp" alt="People presenting" />
+    <img src="/assets/img/freo/occy2.webp" alt="Fremantle Octopus" />
   </div>
 </div>
 

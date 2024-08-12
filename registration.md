@@ -5,10 +5,25 @@ active: registration
 description:
 ---
 
+<div class="on-this-page">
+    <div><img src="/assets/img/freo/bather.webp" alt="Statue of woman bathing"></div>
+    <div class="page-menu"> 
+    On this page:
+        <ul>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#grant-program">FOSS4G Perth Grant Program</a></li>
+        </ul>
+    </div>
+</div>
+
 FOSS4G Perth 2024 is a one day event taking place on October 23rd.
 
 Registration includes a fully catered day, with presentations from local and regional speakers. In addition to the FOSS4G event, participants are welcome to attend other ISPRS sessions happening on the same day. After the conference day, we'll head to a social event hosted by FOSS4G Perth.
 
+<div id="register" class="anchor-offset"></div>
+
+
+## Register
 <!-- Trigger/Open The Modal -->
 <div class="button_wrapper center">
   <button id="regoBtn" class="button">Register</button>
@@ -31,19 +46,19 @@ Registration includes a fully catered day, with presentations from local and reg
 
 </div>
 
-### Early Bird: until ***Saturday 10 August 2024***
-* Full price: $100
+Early Bird: until ***Saturday 10 August 2024***
+* ~~Full price: $100~~ CLOSED
 * Student: $50
 
-### Standard: until Friday 4 October 2024
+Standard: until Friday 4 October 2024
 * Full price: $150
 * Student: $50
 
-### Late: closes Monday 21 October 2024
+Late: closes Monday 21 October 2024
 * Full price: $200
 * Student: $50
 
-### Workshop registration
+Workshop registration
 22 Oct 2024 (am): Collecting data in the field with free & open source geospatial tools: QGIS, QField, and Mergin Maps (<a href="/program#workshop">more info here</a>)
 * Full price: $100
 * Student: $70

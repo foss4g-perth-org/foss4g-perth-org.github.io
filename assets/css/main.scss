@@ -2,6 +2,10 @@
 ---
 @import 'variable';
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: $primary;
   font-size:  16px;
@@ -33,6 +37,7 @@ h2 {
 h3 {
   font-size: 1.3rem;
   font-weight: 300;
+  color: $color_two;
 }
 
 h4 {
@@ -61,7 +66,22 @@ a {
 }
 
 li {
-  padding-bottom: 10px;
+  padding-bottom: 5px;
+  // line-height: 1.5rem;
+}
+
+.divider {
+  height: 2px;
+  width: 100%;
+  background-color: $color_four;
+  margin: 50px 0;
+}
+
+.divider-light {
+  height: 2px;
+  width: 100%;
+  background-color: $lightgrey;
+  margin: 50px 0;
 }
 
 .button_wrapper {
@@ -298,6 +318,26 @@ footer {
   background-size: cover;
 }
 
+
+.on-this-page {
+  display: grid;
+  grid-template-columns: 200px auto;
+  gap: 2rem;
+  // align-items: center;
+  line-height: 1rem;
+  margin-bottom: 3rem;
+  position: relative;
+  // left: 20px;
+  .page-menu {
+    padding: 1rem 0;
+  }
+  img {
+    max-width: 100%;
+    margin: 0;
+    height: 200px;
+    width: 200px
+  }
+}
 //content
 
 .grid {
@@ -860,6 +900,9 @@ footer {
   }
   #sponsor-package {
     font-size: 0.8rem;
+  }
+  .on-this-page {
+    display: none;
   }
 }
 
