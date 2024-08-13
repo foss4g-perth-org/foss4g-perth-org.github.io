@@ -15,6 +15,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
             <li><a href="#guests">Guest Speakers</a></li>
             <li><a href="#main-program">Main Conference Program: 23 October 2024</a></li>
             <li><a href="#workshop">QField and Mergin Maps Workshop: 22 October 2024</a></li>
+            <li><a href="#social">Social Event</a></li>
         </ul>
     </div>
 </div>
@@ -162,3 +163,17 @@ Participants are asked to bring a laptop with a recent version of QGIS, and a mo
 **Presenters**: John Bryant, Grant Boxer, John Duncan
 
 **Duration**: 2.5h
+
+<div class="divider"></div>
+
+<div id="social" class="anchor-offset"></div>
+
+## Social Event
+
+<div class="social-program">
+    <div><img src="/assets/img/freo/bonscott.webp" alt="Statue of Bon Scott"></div>
+    <div> 
+        <p>Stay tuned!</p>
+        <p>There will be a fun social evening in Fremantle following the FOSS4G Perth conference for FOSS4G and ISPRS attendees.</p>
+    </div>
+</div>
