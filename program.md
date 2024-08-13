@@ -103,8 +103,6 @@ In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.htm
 
 FOSS4G Perth welcomes special guest speakers Andrew Dowding and Kass Boladeras from Winyama, presenting **"Empowering Indigenous Communities with GIS: Micro-credentialing for First Nations Land Management"**.
 
-FOSS4G Perth welcomes special guest speakers Andrew Morumburri Dowding and Kass Boladeras from Winyama.
-
 
 <div class="keynote-container">
     <img src="/assets/img/program/andrew_dowding.webp" class="keynote-img" alt="Andrew Dowding">
