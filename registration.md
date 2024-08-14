@@ -46,7 +46,7 @@ Registration includes a fully catered day, with presentations from local and reg
 
 </div>
 
-Early Bird: until ***Saturday 10 August 2024***
+Early Bird: until Saturday 10 August 2024
 * ~~Full price: $100~~ CLOSED
 * Student: $50
 

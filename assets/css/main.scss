@@ -799,7 +799,7 @@ footer {
       }
     }
     #bronze {
-      grid-template-columns: repeat(2, auto);
+      grid-template-columns: 1fr 1fr;
       .img-wrapper {
         height: 100px;
         img {
