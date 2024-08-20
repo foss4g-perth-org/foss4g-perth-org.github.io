@@ -36,7 +36,7 @@ We're inviting the Western Australian open geospatial and mapping community to g
 
 * **1 July:** Call for Presentations opens
 * **21 August:** Call for Presentations closes
-* **22-28 August:** Community vote on presentations
+* **26-31 August:** Community vote on presentations
 * **25 September:** Full program released
 
 ### What are we looking for?
