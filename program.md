@@ -10,7 +10,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
     <div class="page-menu">
      On this page:
         <ul>
-            <li><a href="#presentations">Call for Presentations</a></li>
+            <!-- <li><a href="#presentations">Call for Presentations</a></li> -->
             <li><a href="#keynotes">Keynote Speakers</a></li>
             <li><a href="#guests">Guest Speakers</a></li>
             <li><a href="#main-program">Main Conference Program: 23 October 2024</a></li>
@@ -20,7 +20,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
     </div>
 </div>
 
-<div id="presentations" class="anchor-offset"></div>
+<!-- <div id="presentations" class="anchor-offset"></div>
 
 ## Call for Presentations
 
@@ -64,7 +64,7 @@ Presenters will have access to a projection screen and microphone.
 **Submissions must be received no later than 11:59 PM (AWST), 21 August 2024.**
 
 
-<div class="divider"></div>
+<div class="divider"></div> -->
 
 
 ## Conference Day

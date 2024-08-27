@@ -6,13 +6,13 @@ id: home
 ---
 
 <div class="home">
-    <div class="news-box-wrapper">
+    <!-- <div class="news-box-wrapper">
       <div class="news-box">
         <h2>Want to join in the fun?</h2>
         <div>Call for presentations is now open. Deadline for submissions is 21 August 2024.</div>
         <div>To learn more visit our <a href="/program">program page</a>.</div>
       </div>
-    </div>
+    </div> -->
   <div class="main-content">
     <div class="">
       <div>
