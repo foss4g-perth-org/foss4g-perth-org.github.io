@@ -549,6 +549,9 @@ footer {
 // Sponsors
 #sponsors {
   margin-bottom: 4rem;
+  #gold .blurb {
+    margin-top: 20px;
+  }
   .sponsor {
     border: 2px solid lighten($midgrey, 40%);
     border-radius: 10px;
