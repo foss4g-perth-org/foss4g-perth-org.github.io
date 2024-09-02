@@ -29,6 +29,11 @@
   img: MNG.webp
   blurb: Inspiring and equipping new generations of talent to become the surveying pioneers of tomorrow.
   link: https://www.mngsurvey.com.au/
+- name: De Grey Mining
+  tier: Silver
+  img: degrey.png
+  blurb: West Australian mining company growing one of Australia's most exciting new gold discoveries at Hemi in the Pilbara.
+  link: https://degreymining.com.au/
 # - name: Apeiron
 #   tier: Silver
 #   img: apeiron.png
