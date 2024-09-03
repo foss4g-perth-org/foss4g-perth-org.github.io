@@ -34,11 +34,11 @@
   img: degrey.png
   blurb: West Australian mining company growing one of Australia's most exciting new gold discoveries at Hemi in the Pilbara.
   link: https://degreymining.com.au/
-# - name: Apeiron
-#   tier: Silver
-#   img: apeiron.png
-#   blurb: Born out of Oslandia's OpenLog consortium, Apeiron is an uplifting OSS development startup dedicated to Geology and Mining GIS applications.
-#   link: https://apeiron.technology/
+- name: Apeiron
+  tier: Silver
+  img: apeiron.png
+  blurb: Born out of Oslandia's OpenLog consortium, Apeiron is an uplifting OSS development startup dedicated to Geology and Mining GIS applications.
+  link: https://apeiron.technology/
 
 
 - name: Southern Geoscience Consultants
