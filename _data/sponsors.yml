@@ -12,6 +12,11 @@
   img: gaia.webp
   blurb: Experts in delivering sustainable technology solutions to make the world a better place. We provide a range of services around technology consulting to organisations that work with the environment, or collecting organisations. We've been operating for over 20 years across a wide range of organisations, and have developed many different insights into the challenges our clients face.
   link: https://www.gaiaresources.com.au/
+- name: Gold Road Resources
+  tier: Gold
+  img: goldroad.png
+  blurb: Gold Road is a mid-tier Australian gold producer and explorer with a Tier 1 mine and exploration projects across Western Australia, South Australia and Queensland covering more than 14,000 square kilometres.
+  link: https://goldroad.com.au/
 
 
 - name: Mammoth Geospatial
