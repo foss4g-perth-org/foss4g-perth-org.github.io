@@ -10,9 +10,9 @@
   title: "Smart Maps Portable: JICA Enhances Geospatial Capacity using Raspberry Pi"
   abstract: Smart Maps Portable uses Raspberry Pi to enhance geospatial capacity through the Japan International Cooperation Agency (JICA). The kit focuses on cloud-native web maps and satellite positioning. A live demo will show how the system supports international development goals.
 
-- presenter: Anna Ischenko 
+- presenter: Anna Ischenko
   id: a_ischenko
-  organisation: 
+  organisation:
   title: Mapping water trees and tracing travel routes in Noongar Boodjar
   abstract: This research presents the traditional knowledge of Gnaama Boorna (water trees) in Menang/Merningar Noongar Country, and demonstrates the development of a culturally informed, agent-based movement model using NetLogo that can be used for predicting the location of water trees in the landscape.
 
@@ -38,7 +38,7 @@
   id: j_lang
   organisation: Geologist/Retired
   title: QGIS for Subsea Route Analysis using Projection for Vertical Exaggeration
-  abstract: Multidisciplinary teams used QGIS to compare and contrast the route options using summary charts and cross sections. A new method using projection to plot length (KPm or M) vs. elevation (MSLm) at different vertical exaggerations was developed. 
+  abstract: Multidisciplinary teams used QGIS to compare and contrast the route options using summary charts and cross sections. A new method using projection to plot length (KPm or M) vs. elevation (MSLm) at different vertical exaggerations was developed.
 
 - presenter: Chris Scott
   id: c_scott
@@ -73,7 +73,7 @@
 - presenter: Roberto Lujan Rocha
   id: r_rocha
   organisation: UWA
-  title: Remote sensing for scalable weed mapping in Agriculture
+  title: Remote sensing for scalable weed mapping in agriculture
   abstract: My PhD project will predict weed locations in Australian grain farms using open-source tools like QGIS, Python, and satellite data. This approach will use multi-temporal spectral analysis, offering a scalable alternative to costly AI methods. It will address the $3.3B annual cost of weeds to growers.
 
 - presenter: Monica Danilevicz
@@ -90,7 +90,7 @@
 
 - presenter: Prabhjot Kaur Virk
   id: p_virk
-  organisation: 
+  organisation:
   title: Smartphone based Indoor Pathfinding Application for the Visually Impaired
   abstract: This presentation covers the architecture and implementation of a smartphone-based indoor pathfinding app for the visually impaired. Built with Flutter/Dart, it uses a Django API with PostgreSQL/PostGIS and OpenStreetMap data. The A* algorithm ensures optimal routing, enhancing accessibility.
 
