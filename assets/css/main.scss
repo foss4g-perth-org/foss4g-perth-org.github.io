@@ -9,7 +9,7 @@ html {
 body {
   font-family: $primary;
   font-size:  16px;
-  line-height: 2rem;
+  line-height: 1.6rem;
   color: $charcoal;
 
 }
@@ -29,19 +29,25 @@ h1 {
 
 }
 h2 {
-  font-weight: 400;
-  font-size: 1.5rem;
+  font-weight: 500;
+  font-size: 1.3rem;
   color: $color_one;
 }
 
 h3 {
-  font-size: 1.3rem;
-  font-weight: 300;
+  font-size: 1.1rem;
+  font-weight: 400;
   color: $color_two;
 }
 
 h4 {
   font-size: 1.3rem;
+  margin: 15px 0;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 1rem;
 }
 
 .text-sm {
@@ -59,6 +65,7 @@ h4 {
 
 a {
   color: $color_four;
+  font-weight: 500;
   text-decoration: none;
   &:visited {
     color: $color_four;
@@ -69,6 +76,7 @@ li {
   padding-bottom: 5px;
   // line-height: 1.5rem;
 }
+
 
 .divider {
   height: 2px;
@@ -133,6 +141,9 @@ nav {
 
   li {
     display: inline-block;
+  }
+  a {
+    font-weight: 400;
   }
 }
 
@@ -345,6 +356,7 @@ footer {
   gap: 2rem;
   // align-items: center;
   &.grid-cols-2 {
+      grid-template-columns: 1fr 1fr;
     &.img-right {
       grid-template-columns: auto 40%;
     }
@@ -529,20 +541,16 @@ footer {
 }
 
 
-// keynotes
+// speakers
 
-.keynote-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+.speaker-container {
+  .keynote-img {
+    // border-radius: 50%;
+    min-width: 150px;
+    max-width: 150px;
+    margin: 0;
+  }
 
-.keynote-img {
-  border-radius: 50%;
-  min-width: 150px;
-  max-width: 150px;
-  min-width: 150px;
-  max-width: 150px;
 }
 
 
@@ -557,12 +565,15 @@ footer {
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
-    a .blurb {
-      color: $charcoal;
-      font-size: 0.75rem;
-      line-height: 1rem;
-      &:visited {
+    a {
+      font-weight: 400;
+      .blurb {
         color: $charcoal;
+        font-size: 0.75rem;
+        line-height: 1rem;
+        &:visited {
+          color: $charcoal;
+        }
       }
     }
     img {
@@ -692,6 +703,111 @@ footer {
   gap: 2rem;
   img {
     margin: 0;
+  }
+}
+
+// schedule
+
+#schedule {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  gap: 0px;
+  font-size: 0.8rem;
+}
+
+#presentations {
+  font-size: 0.8rem;
+  .card-full {
+    padding-left: 10px;
+    border-left: 3px solid $lightgrey;
+    margin-bottom: 30px;
+  }
+  .card-title { 
+    font-weight: 500;
+    font-size: 0.9rem;;
+  }
+  .presenter { 
+    font-weight: 500;
+  }
+  .abstract{ 
+    margin-top: 10px;
+  }
+}
+
+.talk-row {
+  display: contents;
+}
+
+.talk-time, .talk-summary {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #eeecec;
+  background-color: $offwhite;
+}
+
+.talk-summary {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: $offwhite;
+  font-weight: 500;
+}
+
+.break {
+  .talk-time, .talk-summary {
+    border: 1px solid #ddd;
+    background-color: $lightgrey;
+  }
+}
+
+.talk-summary {
+  justify-content: flex-start;
+}
+
+.talk-time {
+  justify-content: flex-end;
+}
+
+.card {
+  width: 100%;
+  font-weight: 500;
+  &.talk {
+    border-left: 3px solid $schedule_talk;
+    .card-type {
+      color: $schedule_talk;
+    }
+  }
+  &.lightning {
+    border-left: 3px solid $schedule_lightning;
+    .card-type {
+      color: $schedule_lightning;
+    }
+  }
+  &.keynote {
+    border-left: 3px solid $schedule_keynote;
+    .card-type {
+      color: $schedule_keynote;
+    }
+  }
+  &.invited {
+    border-left: 3px solid $schedule_invited;
+    .card-type {
+      color: $schedule_invited;
+    }
+  }
+  .card-body {
+    position: relative;
+    padding: 0 10px;
+      .card-text {
+        font-size: 0.9rem;
+      }
+      .card-type {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-transform: uppercase;
+      }
   }
 }
 

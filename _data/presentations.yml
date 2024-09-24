@@ -1,94 +1,131 @@
-#Invited speakers
-Invited:
-- name: Sam Wilson
-  organisation:
-  title: OpenStreetMap
-  abstract:
+- presenter: Patrick Morrison
+  id: p_morrison
+  organisation: WA Museum
+  title: Discovering shipwrecks using open datasets
+  abstract: There are more than a thousand shipwrecks in WA, but only 300 have been located by archaeologists. We report several recent discoveries, made using open multibeam datasets, databases of historic vessels and underwater photogrammetry techniques. This includes the oldest known wreck in the Swan River.
 
-- name: Ivana Ivanova
-  organisation:
-  title: OSGeo
-  abstract:
+- presenter: Hidenori Fujimura
+  id: h_fujimura
+  organisation: Japan International Cooperation Agency
+  title: "Smart Maps Portable: JICA Enhances Geospatial Capacity using Raspberry Pi"
+  abstract: Smart Maps Portable uses Raspberry Pi to enhance geospatial capacity through the Japan International Cooperation Agency (JICA). The kit focuses on cloud-native web maps and satellite positioning. A live demo will show how the system supports international development goals.
 
+- presenter: Anna Ischenko 
+  id: a_ischenko
+  organisation: 
+  title: Mapping water trees and tracing travel routes in Noongar Boodjar
+  abstract: This research presents the traditional knowledge of Gnaama Boorna (water trees) in Menang/Merningar Noongar Country, and demonstrates the development of a culturally informed, agent-based movement model using NetLogo that can be used for predicting the location of water trees in the landscape.
 
-#Community Presentations
-FullLength:
-- name: Tom Lynch
-  organisation: Gaia Resources / Trailmarker
-  title: Inventing with QGIS
-  abstract: This talk's about one way—my way—to get sorted for fast, creative QGIS plugin development, with tight feedback loops as you develop, quick access to QGIS APIs and great testability. It discusses my work with Gaia Resources building tools for North Australia and Rangelands Fire Information (NAFI).
-
-- name: Ellie Cervigni
-  organisation: UWA
-  title: Daily mobility and foodscape exposure using aggregated mobile phone location data
-  abstract: Using one year of aggregated mobile phone location data we calculated the kernel density activity space (daily mobility) of IEO Deciles in Perth. The KDE was used to calculate exposure to the food environment as defined by an open dataset of food outlets created from Yelp, OSM, and Fuelwatch data.
-
-- name: Edward Keys
-  organisation: Prodigy Gold
-  title: "QField for Geo's part 2: Creating an effective tool to manage spatial data"
-  abstract: Following from last year's presentation, I will take you through the steps to make your own QField application. From creating a geopackage in the database manager, to attaching dynamic symbologies, QField is the answer to effectively managing spatial data collection in the field.
-
-- name: Gabriel Diosan
-  organisation: City of Canning
-  title: Rubbish Maps and the QGIS Atlas
-  abstract: A look into rebuilding a local government waste data set to overcome existing shortcomings, drive mapping queries and the use of the QGIS atlas to produce a large number of maps.
-
-- name: Dan Dixon
-  organisation: UWA
-  title: Fire severity mapping with Landsat and Google Earth Engine
-  abstract: This talk will explore the use of Google Earth Engine for mapping the severity (level of crown scorch) of wildfires and prescribed burns in southwest Australia. Specifically, I will cover the benefits of using Earth Engine for mapping the entire catalog of fires over the past 16 years.
-
-- name: Martin Rocks and Tim Cable
-  organisation: Winyama
-  title: Open Source Drone Mapping
-  abstract: We'll discuss the use of OpenDroneMap (ODM), an open source drone imagery processing solution, from customising our own installation of it, to how we can use it to create orthomosaics, 3D models, depth elevation models (DEMs) and more for download and eventual import into GIS software like QGIS.
-
-
-
-#Lightning Talks
-Lightning:
-
-- name: Ross Gillis
-  organisation: Hydrobiology
-  title: UAVs and open source tools for marine benthic habitat mapping
-  abstract: Hydrobiology captured UAV imagery of near-shore marine environments. Orthomosaics were created using WebODM and marine benthic habitat was modelled using the Semi-Automatic Classification Plugin for QGIS. We present the considerations and pitfalls when applying this analysis.
-
-- name: Vincent Dinh
-  organisation: GIS Pro
-  title: Exploring WA's Geochemistry Data Online
-  abstract: The story of an online drilling and surface sampling data exploration tool, 100% built with open source for the Geological Survey of Western Australia (GSWA).
-
-# - name: Tony Wheeler
-#   organisation: SSSI (Surveying and Spatial Sciences Institute
-#   title: 'The Geospatial profession:  Are we headed for extinction?'
-#   abstract: Demand for geospatial skills across industry sectors is increasing, however attracting new talent is getting harder. How do we solve this dilemma? SSSI is looking at innovative ways to strengthen and develop our sector's workforce and ensure our profession is not headed for extinction.
-
-# - name: Sharyn Hickey
-#   organisation: UWA
-#   title: 'Habitats on the edge: Marine and coastal habitat mapping'
-#   abstract: Marine and coastal vegetations as blue carbon and nature-based solutions to climate change are currently hot topics. However, we first need to know where these habitats are. Currently, these habitats remain largely unmapped, or limited. We discuss novel and current habitat models being developed.
-
-- name: John Bryant
+- presenter: Cholena Smart
+  id: c_smart
   organisation: Mammoth Geospatial
-  title: QGIS Feature Frenzy
-  abstract: The list of features in QGIS is long, and getting longer with every release. It can be hard to keep up! In this talk, I'll give a series of short demonstrations of some of my favourite features of QGIS, including a few highlights of the new 3.22 release.
+  title: Choosing the right open source web mapping tool
+  abstract: A quick look at open source web mapping options, such as GeoNode, Lizmap, G3W-Suite, and JavaScript libraries (eg MapLibre). These tools make it easier to share data, publish maps, and keep information up to date. This talk will outline what each tool does best and when you might use them.
 
-- name: Walter Genuit
-  organisation: Department of Biodiversity, Conservation and Attractions
-  title: Geospatial data for a campground booking system
-  abstract: DBCA have developed a campground booking system allowing the public to book their camping trips. DBCA is looking to further utilise spatial data available to streamline the system and notifying booking holders of possible campground closures due to bushfires or other emergencies.
+- presenter: Adam Abdul Razak
+  id: a_razak
+  organisation: Curtin University
+  title: "Building Identification on Campus: A CityGML-Based AR Smartphone App"
+  abstract: This research integrates GIS in a digital twin framework for building identification on campuses via smartphones. Using CityGML data, users point cameras to match live images to 3D models. Utilizing AR Foundation, and Google's ARCore, this aims to enhance navigation.
 
-- name: Giles Knight
+- presenter: Nathan Regan
+  id: n_regan
+  organisation: Curtin University
+  title: "Critical analysis of methods used in public transport accessibility"
+  abstract: Recently published studies have made claims around the accessibility of public transport in Australia. This presentation will show how I assessed the geospatial analysis techniques and methodology, using freely available open source solutions - and how improvements could be made.
+
+- presenter: John Lang
+  id: j_lang
+  organisation: Geologist/Retired
+  title: QGIS for Subsea Route Analysis using Projection for Vertical Exaggeration
+  abstract: Multidisciplinary teams used QGIS to compare and contrast the route options using summary charts and cross sections. A new method using projection to plot length (KPm or M) vs. elevation (MSLm) at different vertical exaggerations was developed. 
+
+- presenter: Chris Scott
+  id: c_scott
+  organisation: MNG
+  title: "How open source transformed MNG's PIT reports: From QGIS to Mergin Maps."
+  abstract: Open source software revolutionised MNG Locate's Pit reports by boosting efficiency, & accuracy. Tools like QGIS & Mergin Maps allowed seamless data integration, real-time updates, & better resource management. This streamlined reports, improved data handling, & fostered business innovation.
+
+- presenter: Michel M. Nzikou
+  id: m_nzikou
+  organisation:
+  title: The geologist toolbox QGIS plugin
+  abstract: Aerial imagery in bands form is the gold mine for exploration in hard rock environments with low vegetation. We built a QGIS plugin that scrapes sentinel data via an automated graphical modeller producing natural and regolith images which can help increase the search and mineral annotation space.
+
+- presenter: Grant Boxer
+  id: g_boxer
+  organisation: Consultant Geologist
+  title: Hyperspectral satellite imagery in QGIS
+  abstract: QGIS now includes plugins that enable the import and processing of hyperspectral satellite imagery with over 220 spectral bands. Demonstrations of the EnMAP-Box and Orfeo Toolbox will include examples of imagery applied in mineral exploration and vegetation monitoring.
+
+- presenter: Gabriel Diosan
+  id: g_diosan
+  organisation: City of Canning
+  title: Building the Network
+  abstract: My presentation is about rebuilding the City of Canning footpath data to enable network analysis. The project spanned over 5 years and involved significant time in digitising footpaths, learning new capabilities in QGIS, funding improvements in QGIS and eventually releasing the data as open data.
+
+- presenter: Jack Green
+  id: j_green
+  organisation: Gold Road Resources
+  title: QGIS Plugins for Mineral Exploration
+  abstract: Challenges in the mineral exploration industry exist around data creation (and compliance) and data discovery. Through a series of custom QGIS Plugins we have improved data compliance when planning exploration activities and the discovery and display of the data used by key stakeholders.
+
+- presenter: Roberto Lujan Rocha
+  id: r_rocha
   organisation: UWA
-  title: A dashboard approach to understanding urban tree canopy cover across Australian cities
-  abstract: This presentation unpacks some recent research conducted to investigate the present state of urban tree canopy cover  within Australian cities, and how open source tools can be used to create compelling platforms for communicating results online.
+  title: Remote sensing for scalable weed mapping in Agriculture
+  abstract: My PhD project will predict weed locations in Australian grain farms using open-source tools like QGIS, Python, and satellite data. This approach will use multi-temporal spectral analysis, offering a scalable alternative to costly AI methods. It will address the $3.3B annual cost of weeds to growers.
 
-- name: Vidushi Patel
+- presenter: Monica Danilevicz
+  id: m_danilevicz
   organisation: UWA
-  title: An agent-based model of migratory beekeeping in Western Australia
-  abstract: We developed an agent-based model using open source tools to understand how a change in forage availability relative to future climate affects spatial patterns of beehive migration in WA. The model informs sustainable management decisions within the beekeeping systems.
+  title: Exploring open-source methods for anomaly identification in agricultural fields
+  abstract: The presentation explores methods for identifying anomalies in Australian agricultural fields using publicly available datasets. We compare the performance of unsupervised and weakly supervised algorithms to process time-series data, highlighting the factors affecting the model performance.
 
-- name: Stafford Smith
-  organisation: Winyama
-  title: Vector tiles out of PostGIS – a simple and FOSS solution for Web Maps
-  abstract: Need vector tiles in your web mapping application for efficient loading of map data that still allows nice user interaction? Vector tile servers can be expensive. Ill show you how to make one with FOSS, (and explain what vector tiles are too)!
+- presenter: Nimalika Fernando
+  id: n_fernanddo
+  organisation: Curtin University
+  title: Lost in indoors? Indoor mapping for navigation using FOSS4G tools
+  abstract: This presentation will share my experience in exploring the open data and open standards for the preparation of indoor maps, which are essential for indoor navigation applications.  I will go through my journey of mapping campus buildings on OSM, visualizing, and using them with FOSS4G tools.
+
+- presenter: Prabhjot Kaur Virk
+  id: p_virk
+  organisation: 
+  title: Smartphone based Indoor Pathfinding Application for the Visually Impaired
+  abstract: This presentation covers the architecture and implementation of a smartphone-based indoor pathfinding app for the visually impaired. Built with Flutter/Dart, it uses a Django API with PostgreSQL/PostGIS and OpenStreetMap data. The A* algorithm ensures optimal routing, enhancing accessibility.
+
+- presenter: Alexandra Maskell
+  id: a_maskell
+  organisation: JB Pacific Scientists and Engineers
+  title: Harnessing GIS and Free Open-Source Data for Flood Risk Assessments
+  abstract: Exploring the use of free, open-source geospatial datasets to improve flood risk assessments. We'll examine various flood hazard maps across WA, identify free datasets that can be leveraged to generate meaningful statistics and discuss how these insights can help a diverse range of stakeholders.
+
+- presenter: Ana Carvalho
+  id: a_carvalho
+  organisation: Edith Cowan University
+  title: Validation of 32 Years of Fire Records in the Mundaring Catchment
+  abstract: The Landgate Fire History Database was validated using GEE's Python and JavaScript APIs with Landsat, MODIS, and random forest to confirm burned/unburned pixels in fire perimeters and dates, achieving over 95% accuracy and revealing significant inaccuracies in the FHD.
+
+- presenter: Diana Ong
+  id: d_ong
+  organisation: Nika.eco
+  title: LLM generated python for geospatial analysis in GDAL native environment
+  abstract: We advance geospatial data science through providing optimal dev ops for anyone to build geospatial models in a GDAL native environment while being supported by GPT-like co-pilot that is trained for geospatial python. This significantly reduce costs and increase accessibility.
+
+- presenter: Lavender (Qingxiang) Liu
+  id: l_liu
+  organisation: FrontierSI
+  title: "EO-Insights: Accelerating Open Earth Observation Data Management & Analysis"
+  abstract: EO-Insights is a public python package for managing and analysing open Earth Observation (EO) data. The tool aims to speed up iterative research and development with open EO data. The presentation will highlight the package's features and demonstrate real-world applications through notebooks.
+
+- presenter: Nick Wright
+  id: n_wright
+  organisation: UWA
+  title: Training sensor-agnostic deep learning models for remote sensing
+  abstract: We present methods for developing sensor-agnostic deep learning models for remote sensing, highlighting our open-source OmniCloudMask. This state-of-the-art model demonstrates advanced cloud and cloud shadow detection capabilities across various satellite sensors.
+
+- presenter: Duncan Kinnear
+  id: d_kinnear
+  organisation: Select Carbon
+  title: "Canopy Conundrum: How FOSS Helps us to See the Forest Through the Trees"
+  abstract: To measure the growth of forests we need to calculate canopy cover over time. Small UAVs are helping us to collect reliable data at scale. We are using OpenDroneMap, PDAL, GDAL and Python to wrangle point clouds into meaningful and repeatable datasets.
