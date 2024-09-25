@@ -95,6 +95,7 @@ In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.htm
         title=presentation.title
         abstract=presentation.abstract
         id=presentation.id
+        organisation=presentation.organisation
     %}
 {% endfor %}
 </div>

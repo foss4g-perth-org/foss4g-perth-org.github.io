@@ -5,7 +5,7 @@
       {{ include.title }}
     </div>
     <div class="presenter">
-      {{ include.presenter }}
+      {{ include.presenter }} {%if include.organisation %} - {{ include.organisation }} {% endif %}
     </div>
     <div class="abstract">
       {{ include.abstract }}
