@@ -6,7 +6,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
 ---
 
 
-## Workshop: 22 October 2024 (am)
+## Tutorial: 22 October 2024 (am)
 
 ### Collecting data in the field with free & open source geospatial tools: QGIS, QField, and Mergin Maps
 

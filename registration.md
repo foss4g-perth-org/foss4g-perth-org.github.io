@@ -46,7 +46,7 @@ Late: closes Monday 21 October 2024
 * Full price: $200
 * Student: $50
 
-Workshop registration
+Tutorial registration
 22 Oct 2024 (am): Collecting data in the field with free & open source geospatial tools: QGIS, QField, and Mergin Maps (<a href="/program#workshop">more info here</a>)
 * Full price: $100
 * Student: $70
