@@ -19,7 +19,7 @@
 - presenter: Cholena Smart
   id: c_smart
   organisation: Mammoth Geospatial
-  title: Choosing the right open source web mapping tool
+  title: An Overview of Open Source Web Mapping Tools
   abstract: A quick look at open source web mapping options, such as GeoNode, Lizmap, G3W-Suite, and JavaScript libraries (eg MapLibre). These tools make it easier to share data, publish maps, and keep information up to date. This talk will outline what each tool does best and when you might use them.
 
 - presenter: Adam Abdul Razak
