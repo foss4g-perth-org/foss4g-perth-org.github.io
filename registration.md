@@ -5,25 +5,13 @@ active: registration
 description:
 ---
 
-<div class="on-this-page">
-    <div><img src="/assets/img/freo/bather.webp" alt="Statue of woman bathing"></div>
-    <div class="page-menu"> 
-    On this page:
-        <ul>
-            <li><a href="#register">Register</a></li>
-            <li><a href="#grant-program">FOSS4G Perth Grant Program</a></li>
-        </ul>
-    </div>
-</div>
-
-FOSS4G Perth 2024 is a one day event taking place on October 23rd.
+FOSS4G Perth 2024 is a one day event taking place on October 23rd at the Esplanade Hotel, Fremantle, WA.
 
 Registration includes a fully catered day, with presentations from local and regional speakers. In addition to the FOSS4G event, participants are welcome to attend other ISPRS sessions happening on the same day. After the conference day, we'll head to a social event hosted by FOSS4G Perth.
 
 <div id="register" class="anchor-offset"></div>
 
 
-## Register
 <!-- Trigger/Open The Modal -->
 <div class="button_wrapper center">
   <button id="regoBtn" class="button">Register</button>
