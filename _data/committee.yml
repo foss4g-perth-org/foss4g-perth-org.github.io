@@ -19,8 +19,8 @@
 - name: John Lang
   affiliation: Consultant
   img: john-lang.jpeg
-- name: John Reid
-  affiliation:
+# - name: John Reid
+#   affiliation:
 - name: Keith Moss
   affiliation: WA Government
   img: keith-moss.jpeg
@@ -33,18 +33,18 @@
 - name: Petra Helmholz
   affiliation: Curtin University
   img: petra-helmholz.jpeg
-- name: Piers Higgs
-  affiliation: Gaia Resources
-  img: piers-higgs.jpeg
+# - name: Piers Higgs
+#   affiliation: Gaia Resources
+#   img: piers-higgs.jpeg
 - name: Renee Malacari
   affiliation:
   img: renee-malacari.jpeg
 - name: Tracey Cousens
   affiliation:
   img: tracey-cousens.jpeg
-- name: Stafford Smith
-  affiliation:
-  img: stafford-smith.jpeg
-- name: Vincent Dinh
-  affiliation: GIS Pro
-  img: vincent-dinh.jpeg
+# - name: Stafford Smith
+#   affiliation:
+#   img: stafford-smith.jpeg
+# - name: Vincent Dinh
+#   affiliation: GIS Pro
+#   img: vincent-dinh.jpeg
