@@ -6,13 +6,14 @@ id: home
 ---
 
 <div class="home">
-    <!-- <div class="news-box-wrapper">
+  <div class="news-box-wrapper">
       <div class="news-box">
-        <h2>Want to join in the fun?</h2>
-        <div>Call for presentations is now open. Deadline for submissions is 21 August 2024.</div>
-        <div>To learn more visit our <a href="/program">program page</a>.</div>
+        <h2>Online registration is now closed. <br>Good news though! ... you can still register in person on the day.</h2>
+        <div>Conference and tutorial registration available at the conference from 8am on Tue 22 or Wed 23.</div>
+        <div class="small"><a href="/registration">More info here...</a></div>
       </div>
-    </div> -->
+  </div>
+
   <div class="main-content">
     <div class="">
       <div>

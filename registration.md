@@ -13,15 +13,15 @@ Registration includes a fully catered day, with presentations from local and reg
 
 
 <!-- Trigger/Open The Modal -->
-<div class="button_wrapper center">
+<!-- <div class="button_wrapper center">
   <button id="regoBtn" class="button">Register</button>
-</div>
+</div> -->
 
 <!-- The Modal -->
-<div id="regoModal" class="modal">
+<!-- <div id="regoModal" class="modal"> -->
 
   <!-- Modal content -->
-  <div class="modal-content">
+  <!-- <div class="modal-content">
     <span class="close">&times;</span>
     <div>DISCOUNT CODE: <span class="bold">FremantleOct24</span> (for FOSS4G Perth participants only)</div>
     <div class="inner-regobutton">
@@ -30,26 +30,41 @@ Registration includes a fully catered day, with presentations from local and reg
     <div>
       When you select the "Register Now" button you will be redirected to the ISPRS Technical Commission IV Symposium registration portal, where you can register for FOSS4G Perth. Remember to use the provided discount code.
     </div>
-  </div>
+  </div> -->
 
+<!-- </div> -->
+
+<div class="news-box-wrapper">
+    <div class="news-box">
+      <h2>Online registration is now closed. <br>Good news though! ... you can still register in person on the day.</h2>
+      <div>Conference and tutorial registration available at the conference from 8am on Tue 22 or Wed 23</div>
+    </div>
 </div>
 
-Early Bird: until Saturday 10 August 2024
-* ~~Full price: $100~~ CLOSED
-* Student: $50
-
-Standard: until Friday 4 October 2024
-* Full price: $150
-* Student: $50
-
-Late: closes Monday 21 October 2024
-* Full price: $200
+In person: available at registration desk from 8am on Tue 22 or Wed 23
+* Full price: $200  (Credit card or cash)
 * Student: $50
 
 Tutorial registration
 22 Oct 2024 (am): Collecting data in the field with free & open source geospatial tools: QGIS, QField, and Mergin Maps (<a href="/program#workshop">more info here</a>)
 * Full price: $100
 * Student: $70
+
+~~Early Bird: until Saturday 10 August 2024~~
+* ~~Full price: $100~~ CLOSED
+* ~~Student: $50~~
+
+~~Standard: until Friday 4 October 2024~~
+* ~~Full price: $150~~  CLOSED
+* ~~Student: $50~~
+
+~~Late: closes Thursday 17 October 2024~~
+* ~~Full price: $200~~  CLOSED
+* ~~Student: $50~~
+
+
+
+
 
 <div id="grant-program" class="anchor-offset"></div>
 
