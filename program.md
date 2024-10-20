@@ -62,7 +62,7 @@ In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.htm
 
 ### Invited Speakers
 
-<p>FOSS4G Perth welcomes special guest speaker Andrew Dowding from <a target="_blank" href="https://www.winyama.com.au/">Winyama</a>.</p>
+<p>FOSS4G Perth welcomes special guest speakers Andrew Dowding & Tim Cable from <a target="_blank" href="https://www.winyama.com.au/">Winyama</a>.</p>
 <h5>Empowering Indigenous Communities with GIS: Micro-credentialing for First Nations Land Management</h5>
 
 <div class="grid grid-cols-2">
@@ -73,13 +73,13 @@ In collaboration with <a href="https://www.isprs.org/tc4-symposium2024/index.htm
         Andrew’s role is to manage and guide Winyama, create opportunities for the team to grow into their roles and most importantly to generate work for the organisation to be sustainable. Andrew is from the Ngarluma traditional owner group and grew up between Perth, Sydney, and the Pilbara. Andrew’s passion is Indigenous mapping and the use of technology for cultural safeguarding. He co-founded Winyama in 2018 to provide more opportunity for Indigenous people to work in the geospatial industry and within the broader digital economy.
         </p>
     </div>
-    <!-- <div class="speaker-container">
-        <a href="https://www.linkedin.com/in/kass-boladeras/" target="_blank"><img src="/assets/img/program/kass_boladeras.webp" class="keynote-img" alt="Kass Boladeras">
-        <h4>Kass Boladeras</h4></a>
+    <div class="speaker-container">
+        <a href="https://www.linkedin.com/in/kass-boladeras/" target="_blank"><img src="/assets/img/program/tim.jpg" class="keynote-img" alt="Tim Cable">
+        <h4>Tim Cable</h4></a>
         <p>
-        Kass is responsible for leading the marketing team and overseeing the company’s human resource department. Additionally, Kass manages and oversees Winyama’s social initiative, the Indigenous Mapping Workshop Australia program. Born and raised in Fremantle, Kass is a proud Ballardong woman with familial ties to the Wheatbelt (Northam, York, Toodyay).
+        Born and raised in Perth, Wilman Noongar man, Tim is a versatile and experienced Senior IT consultant with a passion for innovation and client satisfaction. As a Contracted Cloud Solutions Architect, Developer, IT Systems Consultant, and Systems Administrator, Tim thrives in dynamic, client-facing environments.  Tim brings a wealth of experience in IT Managed Services, handling pressure with grace. He manages multiple clients and projects effortlessly, showing adaptability and a knack for learning quickly. Tim's dedication to giving back is evident in his volunteer work, reflecting his desire to make a positive difference.
         </p>
-    </div> -->
+    </div>
 </div>
 
 <div class="divider-light"></div>
