@@ -12,7 +12,7 @@ description: We are inviting the Western Australian open geospatial and mapping 
 
 **Presenters**: John Bryant, Grant Boxer, John Duncan
 
-**Duration**: 2.5h
+**Duration**: 3 hours (plus a break for morning tea)
 <details>
     <summary>More information</summary>
     {% include_relative read_more/workshop.html %}
