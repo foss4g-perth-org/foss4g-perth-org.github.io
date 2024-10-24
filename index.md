@@ -10,6 +10,7 @@ id: home
   <div class="news-box-wrapper">
       <div class="news-box">
         <h2>Thanks for joining us and making FOSS4G Perth 2024 such a great day!</h2>
+        <img src="/assets/img/foss4g_perth_2024.jpg" alt="Perth FOSS4G community members 2024"/>
         <p>Keep an eye out for the talks on our <a href="https://www.youtube.com/@FOSS4GPerth/videos">YouTube channel</a> (coming soon)<br> and join our <a href="#signup">mailing list</a> to keep up with any news.</p>
       </div>
   </div>
