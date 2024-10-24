@@ -23,6 +23,7 @@ slack: 'Geogeeks'
 linkedin: 'FOSS4G Perth'
 email: 'admin@foss4g-perth.org'
 header_logo: 'assets/img/FOSS4G_Perth_logo_black.png'
+youTube: 'https://www.youtube.com/@FOSS4GPerth/videos'
 
 # Google Analytics
 google_analytics: G-JCXFYD6H36

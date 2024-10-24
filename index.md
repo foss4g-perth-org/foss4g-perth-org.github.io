@@ -9,12 +9,8 @@ id: home
 
   <div class="news-box-wrapper">
       <div class="news-box">
-        <h2>Join us at FOSS4G Perth @ the Esplanade Hotel (46-54 Marine Terrace, Fremantle) </h2>
-        <h2>23 Oct 2024</h2>
-        <p>Registration opens at 8am. Program begins at 8.30am</p>
-        <p class="bold">Online registration is now closed. <br>Good news though! ... you can still register in person on the day.</p>
-        <div>Conference and tutorial registration available at the conference from 8am on Tue 22 or Wed 23.</div>
-        <div class="small"><a href="/registration">More info here...</a></div>
+        <h2>Thanks for joining us and making FOSS4G Perth 2024 such a great day!</h2>
+        <p>Keep an eye out for the talks on our <a href="https://www.youtube.com/@FOSS4GPerth/videos">YouTube channel</a> (coming soon)<br> and join our <a href="#signup">mailing list</a> to keep up with any news.</p>
       </div>
   </div>
 
