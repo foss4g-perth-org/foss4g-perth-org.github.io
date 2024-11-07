@@ -1,5 +1,17 @@
 
-// Colors
+@charset "utf-8";
+
+@font-face {
+	font-family: "BigShouldersDisplayMedium";
+	src: url("../fonts/BigShoulders/BigShouldersDisplay-Medium.ttf");
+}
+
+@font-face {
+	font-family: "BigShouldersDisplaySemiBold";
+	src: url("../fonts/BigShoulders/BigShouldersDisplay-SemiBold.ttf");
+}
+
+
 
 // base colors
 $charcoal: #1c2028;
@@ -20,4 +32,5 @@ $schedule_invited: #fc4a1a;
 
 // fonts
 $primary: 'Montserrat', sans-serif;
-$display: "Big Shoulders Display", sans-serif;
+$display: "BigShouldersDisplayMedium", sans-serif;
+$display-bold: "BigShouldersDisplaySemiBold", sans-serif;

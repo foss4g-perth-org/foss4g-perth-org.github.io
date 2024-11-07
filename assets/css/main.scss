@@ -303,24 +303,25 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: $display;
   .hero-name {
     font-size: 8rem;
     line-height: 9rem;
     font-weight: 600;
     text-transform: uppercase;
+    font-family: $display-bold;
   }
   .hero-place {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-weight: 500;
-    letter-spacing: .5rem;
+    letter-spacing: .5rem; 
+    font-family: $display;
   }
   .hero-date {
     font-size: 2.0rem;
     line-height: 4rem;
     font-weight: 500;
     letter-spacing: .5rem;
+    font-family: $display;
   }
 }
 
